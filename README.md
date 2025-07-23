@@ -37,8 +37,7 @@ I began my career in 2011 as a Technical Support Specialist at uCoz, resolving u
 
 ## Portfolio
 
-Explore my micro-studio work at **Phantom Draft**:  
-– Live site & code: [phantomdraft.github.io](https://github.com/PhantomDraft/phantomdraft.github.io)
+Explore my micro-studio work at @PhantomDraft
 
 ## In My Free Time
 
