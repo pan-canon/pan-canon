@@ -1,60 +1,51 @@
 ## Objective
 
-Currently, I write technical articles related to my stack and am learning C#, as I want to move into game development. I am open to opportunities as a game developer or a narrative designer. :contentReference[oaicite:4]{index=4}
+Currently, I write technical articles related to my stack and am learning C#, as I want to move into game development. I am open to opportunities as a game developer or a narrative designer.
 
 ## Technology Stack
 
 **Programming Languages:**  
 JavaScript (ES6+), PHP, SQL, HTML5, CSS3, Bash, PowerShell
 
-**Preprocessors and Extensions (as needed):**  
-CSS preprocessors (Sass, Less), PostCSS, etc.
+**Preprocessors & Extensions:**  
+Sass, Less, PostCSS
 
-**Tools and VCS:**  
-Webpack (bundler)  
-Composer (PHP package manager)  
-WP CLI (WordPress Command Line Interface)  
-Git (VCS)
+**Tools & VCS:**  
+Webpack, Composer, WP-CLI, Git
 
-**CMS, Frameworks and SSG:**  
-WordPress (commercial experience: development of Classic/FSE themes and plugins)  
-Laravel (commercial experience)  
-Angular, Vue.js (self-study, pet projects)  
-Hugo (pet projects)  
-SaaS platforms (internal testing, technical support, and custom solutions | commercial experience)
+**CMS & Frameworks:**  
+WordPress (themes & plugins), Laravel, Angular, Vue.js, Hugo
 
 **Libraries:**  
-React, jQuery (jQ within WordPress)
+React, jQuery
 
-**Server Infrastructure and Network Configuration:**  
-Deployment and administration on Unix-like OS (Linux, BSD)  
-Network settings configuration (TCP/IP, firewall)
+**Server & DevOps:**  
+Linux/BSD, TCP/IP, firewalls, Docker, CI/CD
 
-**Containerization and Virtualization:**  
-Docker, VirtualBox, Hyper-V
+**Design & Multimedia:**  
+Figma, Photoshop, FFmpeg, Premiere
 
-**Design and Multimedia:**  
-Adobe Photoshop (Clone Stamp tool)  
-Figma (UI/UX design)  
-Preparing mockups for merchandise printing (choosing formats, color profiles)  
-Video editing (FFmpeg, Adobe Premiere, Canva)
+**SEO & Performance:**  
+Analytics, hreflang, metadata, sitemaps, security hardening
 
-**SEO (basic level):**  
-Google Analytics setup  
-Proper use of hreflang for multilingual site versions  
-Meta-data optimization, sitemap.xml
-
-**Methodologies and Practices:**  
-DevOps (CI/CD, build and deployment automation)  
-OOP (Object-Oriented Programming: JavaScript, PHP)  
-BEM (BEM methodology for scalable CSS architecture) :contentReference[oaicite:5]{index=5}
+**Practices:**  
+OOP, BEM, automated builds & deployments
 
 ## Experience
 
-I began my career in 2011 as a Technical Support Specialist at uCoz, resolving user requests both through standard support channels and programmatic solutions. In 2017 I transitioned to content project management at Scuba Space, where I built and trained a remote writing team. From 2018 to 2019, I led merchandising oversight and CMS integration for Carlsberg Group, optimizing warehouse processes and partner negotiations. In late 2019 I joined ZIPY Holdings Ltd as a Junior Full-Stack Web Engineer, architecting a custom WooCommerce subscription platform. Since 2021, I’ve been freelancing as a Middle Full-Stack Web Engineer and technical writer, delivering responsive web solutions and publishing in-depth articles on development, SEO, and horror-themed narratives. 
+I began my career in 2011 as a Technical Support Specialist at uCoz, resolving user requests and automating solutions. In 2017 I transitioned to content project management at Scuba Space, building and training a distributed writing team. From 2018 to 2019 I led merchandising and CMS integrations for Carlsberg Group. In late 2019 I joined ZIPY Holdings Ltd as a Full-Stack Web Engineer, architecting a custom WooCommerce subscription platform. Since 2021, I’ve been freelancing—delivering responsive web solutions, writing in-depth technical articles, and advising on horror-themed game narratives.
 
 ## Portfolio
 
-Explore my full range of work at **Phantom Draft**:  
-– Live site: https://phantom-draft.com  
-– Code repository: [PhantomDraft/phantomdraft.github.io](https://github.com/PhantomDraft/phantomdraft.github.io)  
+Explore my micro-studio work at **Phantom Draft**:  
+– Live site & code: [phantomdraft.github.io](https://github.com/PhantomDraft/phantomdraft.github.io)
+
+## In My Free Time
+
+I spend quality time with my family—teaching my son (see [kinder.github.io](https://github.com/PhantomDraft/kinder.github.io)) and sharing our love of games.
+
+<p align="center">
+  <a href="https://store.steampowered.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Steam-%231B2838?style=flat&logo=steam&logoColor=white" alt="Steam">
+  </a>
+</p>
