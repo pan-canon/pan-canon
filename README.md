@@ -30,7 +30,7 @@ React, jQuery (jQ within WordPress)
 - Deployment and administration on Unix-like OS (Linux, BSD)
 - Network settings configuration (TCP/IP, firewall)
 
-**Containerization and Virtualization:**
+**Containerization and Virtualization:**   
 Docker, VirtualBox, Hyper-V
 
 **Design and Multimedia:**
