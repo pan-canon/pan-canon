@@ -4,14 +4,13 @@ Currently, I write technical articles related to my stack and am learning C#, as
 
 ## Technology Stack
 
-
 **Programming Languages:**   
 JavaScript (ES6+), PHP, SQL, HTML5, CSS3, Bash, PowerShell
 
 **Preprocessors and Extensions (as needed):**   
 CSS preprocessors (Sass, Less), PostCSS, etc.
 
-**Tools and VCS:******
+**Tools and VCS:**
 - Webpack (bundler)
 - Composer (PHP package manager)
 - WP CLI (WordPress Command Line Interface)
