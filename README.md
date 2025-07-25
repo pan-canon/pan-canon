@@ -4,32 +4,51 @@ Currently, I write technical articles related to my stack and am learning C#, as
 
 ## Technology Stack
 
-**Programming Languages:**  
+
+**Programming Languages:**   
 JavaScript (ES6+), PHP, SQL, HTML5, CSS3, Bash, PowerShell
 
-**Preprocessors & Extensions:**  
-Sass, Less, PostCSS
+**Preprocessors and Extensions (as needed):**   
+CSS preprocessors (Sass, Less), PostCSS, etc.
 
-**Tools & VCS:**  
-Webpack, Composer, WP-CLI, Git
+**Tools and VCS:******
+- Webpack (bundler)
+- Composer (PHP package manager)
+- WP CLI (WordPress Command Line Interface)
+- Git (VCS)
 
-**CMS & Frameworks:**  
-WordPress (themes & plugins), Laravel, Angular, Vue.js, Hugo
+**CMS, Frameworks and SSG:**
+- WordPress (commercial experience: development of Classic/FSE themes and plugins)
+- Laravel (commercial experience)
+- Angular, Vue.js (self-study, pet projects)
+- Hugo (pet projects)
+- SaaS platforms (internal testing, technical support, and custom solutions | commercial experience)
 
-**Libraries:**  
-React, jQuery
+**Libraries:**   
+React, jQuery (jQ within WordPress)
 
-**Server & DevOps:**  
-Linux/BSD, TCP/IP, firewalls, Docker, CI/CD
+**Server Infrastructure and Network Configuration:**
+- Deployment and administration on Unix-like OS (Linux, BSD)
+- Network settings configuration (TCP/IP, firewall)
 
-**Design & Multimedia:**  
-Figma, Photoshop, FFmpeg, Premiere
+**Containerization and Virtualization:**
+Docker, VirtualBox, Hyper-V
 
-**SEO & Performance:**  
-Analytics, hreflang, metadata, sitemaps, security hardening
+**Design and Multimedia:**
+- Adobe Photoshop (Clone Stamp tool)
+- Figma (UI/UX design)
+- Preparing mockups for merchandise printing (choosing formats, color profiles)
+- Video editing (FFmpeg, Adobe Premiere, Canva)
 
-**Practices:**  
-OOP, BEM, automated builds & deployments
+**SEO (basic level):**
+- Google Analytics setup
+- Proper use of hreflang for multilingual site versions
+- Meta-data optimization, sitemap.xml
+
+**Methodologies and Practices:**
+- DevOps (CI/CD, build and deployment automation)
+- OOP (Object-Oriented Programming: JavaScript, PHP)
+- BEM (BEM methodology for scalable CSS architecture)
 
 ## Experience
 
