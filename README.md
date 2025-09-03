@@ -1,6 +1,6 @@
 ## Objective
 
-Currently, I write technical articles related to my stack and am learning C#, as I want to move into game development. I am open to opportunities as a game developer or a narrative designer.
+Currently, I write technical articles related to my stack and am learning C#. I am open to opportunities as a game developer or a narrative designer.
 
 ## Technology Stack
 
