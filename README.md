@@ -1,6 +1,6 @@
 ## Objective
 
-Currently, I write articles related to my stack, sometimes web programming and am learning C#. I'm open to opportunities as a project manager or a game designer.
+Currently, I write articles related to my stack and sometimes web programming.
 
 ## Technology Stack
 
@@ -51,7 +51,7 @@ Docker, VirtualBox, Hyper-V
 
 ## Experience
 
-I began my career in 2011 as a Technical Support Specialist at uCoz, resolving user requests and automating solutions. In 2017, I transitioned to content project management at Scuba Space, where I built and trained a distributed writing team. From 2018 to 2019, I led merchandising and CMS integrations for Carlsberg Group. In late 2019, I joined ZIPY Holdings Ltd as a Full-Stack Web Engineer, architecting a custom WooCommerce subscription platform. Since 2021, I’ve been freelancing—delivering responsive web solutions, writing in-depth technical articles, and advising on horror-themed game narratives.
+A detailed overview of my experience up to and including October 10, 2025 is available upon request. I have progressed from a technical support specialist to a QA tester and then to a full-stack web developer; I have also worked on editorial content and, for a period, served as a project manager for a team of copywriters. I found my professional path in game design because it allows me to combine two disciplines: STEM and the humanities.
 
 ## Portfolio
 
