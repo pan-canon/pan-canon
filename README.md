@@ -8,7 +8,7 @@ Currently, I write articles related to my stack and sometimes web programming.
 JavaScript (ES6+), PHP, SQL, HTML5, CSS3, Bash, PowerShell
 
 **Preprocessors and Extensions (as needed):**   
-CSS preprocessors (Sass, Less), PostCSS, etc.
+TypeScript (compiled to JavaScript), CSS preprocessors (Sass, Less), PostCSS, etc.
 
 **Tools and VCS:**
 - Webpack (bundler)
@@ -45,6 +45,9 @@ Docker, VirtualBox, Hyper-V
 - Meta-data optimization, sitemap.xml
 
 **Methodologies and Practices:**
+- Low-level code design: SOLID, DRY, KISS, dependency injection, separation of concerns
+- High-level application architecture: client–server, layered architecture, MVC/MVVM for web front ends, modular monoliths, microservices (where justified)
+- Advanced architecture and system design: Hexagonal architecture (Ports & Adapters — my preferred approach for complex, testable systems), Domain-Driven Design (bounded contexts, aggregates), event-driven patterns (message queues, pub/sub) when needed
 - DevOps (CI/CD, build and deployment automation)
 - OOP (Object-Oriented Programming: JavaScript, PHP)
 - BEM (BEM methodology for scalable CSS architecture)
@@ -61,5 +64,5 @@ Explore my micro-studio work at [@PhantomDraft](https://github.com/PhantomDraft)
 
 I spend quality time with my family—teaching my son (see [kinder.github.io](https://github.com/PhantomDraft/kinder.github.io)) and sharing our love of games.
 
-| [![Steam](https://img.shields.io/badge/Steam-%231B2838?style=flat&logo=steam&logoColor=white)](https://steamcommunity.com/id/messrs-canon-and-tykhon/) | [![Xbox](https://img.shields.io/badge/Xbox-%231072CE?style=flat&logo=xbox&logoColor=white)](#) | [![Discord](https://img.shields.io/badge/Discord-%235865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/users/pan_canon) |
-|:---:|:---:|:---:|
+| [![Steam](https://img.shields.io/badge/Steam-%231B2838?style=flat\&logo=steam\&logoColor=white)](https://steamcommunity.com/id/messrs-canon-and-tykhon/) | [![Xbox](https://img.shields.io/badge/Xbox-%231072CE?style=flat\&logo=xbox\&logoColor=white)](#) | [![Discord](https://img.shields.io/badge/Discord-%235865F2?style=flat\&logo=discord\&logoColor=white)](https://discord.com/users/pan_canon) |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: |
