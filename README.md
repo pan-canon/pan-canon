@@ -54,7 +54,11 @@ Docker, VirtualBox, Hyper-V
 
 ## Experience
 
-A detailed overview of my experience up to and including October 10, 2025 is available upon request. I have progressed from a technical support specialist to a QA tester and then to a full-stack web developer; I have also worked on editorial content and, for a period, served as a project manager for a team of copywriters. I found my professional path in game design because it allows me to combine two disciplines: STEM and the humanities.
+Dear colleagues,
+
+A detailed overview of my experience up to and including October 10, 2025 is available upon request. As several of my key sponsors and long-term partners have recently undergone internal restructuring, the fully attributed version of this history is kept off public profiles and shared only on demand. Over the years, I have moved along a deliberately technical trajectory: from a frontline technical support specialist working directly with end users and real-world edge cases, through QA testing with a focus on reproducibility and systemic thinking, to a full-stack web developer responsible for designing and implementing production-ready solutions. Parallel to this, I have worked with editorial content and for a period coordinated a team of copywriters as a project manager, combining process discipline with an eye for tone, style, and audience.
+
+As a result, I have come to see my work as sitting at the intersection of systems engineering and storytelling. I found my professional path in game design precisely because it allows me to integrate two domains that have always defined my interests: the formal rigor of STEM (systems, mechanics, constraints) and the interpretive depth of the humanities (narrative, theme, character, worldbuilding).
 
 ## Portfolio
 
