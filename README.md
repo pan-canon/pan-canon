@@ -10,7 +10,7 @@ As a result, I have come to see my work as sitting at the intersection of system
 JavaScript (ES6+), PHP, SQL (incl. D1), HTML5, CSS3, Bash, PowerShell
 
 **Preprocessors and Extensions (as needed):**   
-TypeScript (compiled to JavaScript), CSS preprocessors (Sass, Less), PostCSS, etc.
+TypeScript (compiled to JavaScript), CSS preprocessors (Sass, Less, PostCSS).
 
 **Tools and VCS:**
 - Webpack (bundler)
