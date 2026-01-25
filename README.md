@@ -56,8 +56,8 @@ Docker, VirtualBox, Hyper-V
 
 ## Portfolio
 
-- Explore my work with game teams at [@Zhovten Games](https://github.com/Zhovten-Games), designing and shipping narrative-driven game systems — core loops, progression, and story structures that work in real production, not just on paper.
-- Explore my micro-studio work at [@PhantomDraft](https://github.com/PhantomDraft)
+- Explore my work with game teams at [@Zhovten Games](https://github.com/Zhovten-Games), designing and shipping narrative-driven game systems — core loops, progression, and story structures that work in real production, not just on paper;
+- Explore my micro-studio work at [@PhantomDraft](https://github.com/PhantomDraft).
 
 ## In My Free Time
 
