@@ -56,13 +56,12 @@ Docker, VirtualBox, Hyper-V
 
 ## Portfolio
 
-Explore my work with game teams at [@Zhovten Games](https://github.com/Zhovten-Games), designing and shipping narrative-driven game systems — core loops, progression, and story structures that work in real production, not just on paper.
-
-Explore my micro-studio work at [@PhantomDraft](https://github.com/PhantomDraft)
+- Explore my work with game teams at [@Zhovten Games](https://github.com/Zhovten-Games), designing and shipping narrative-driven game systems — core loops, progression, and story structures that work in real production, not just on paper.
+- Explore my micro-studio work at [@PhantomDraft](https://github.com/PhantomDraft)
 
 ## In My Free Time
 
-I spend quality time with my family—teaching my son (see [kinder.github.io](https://github.com/PhantomDraft/kinder.github.io)) and sharing our love of games.
+- I spend quality time with my family—teaching my son (see [kinder.github.io](https://github.com/PhantomDraft/kinder.github.io)) and sharing our love of games.
 
 | [![Steam](https://img.shields.io/badge/Steam-%231B2838?style=flat\&logo=steam\&logoColor=white)](https://steamcommunity.com/id/messrs-canon-and-tykhon/) | [![Xbox](https://img.shields.io/badge/Xbox-%231072CE?style=flat\&logo=xbox\&logoColor=white)](#) | [![Discord](https://img.shields.io/badge/Discord-%235865F2?style=flat\&logo=discord\&logoColor=white)](https://discord.com/users/pan_canon) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: |
