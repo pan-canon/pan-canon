@@ -1,8 +1,8 @@
-Dear team,
+My professional path started in technical support, where I worked directly with users and handled non-standard cases. I then moved into QA, focusing on testing, bug reproducibility, and systematic problem analysis. Later, I transitioned into full-stack web development, where I began designing, building, and maintaining web solutions.
 
-Over the years, I have moved along a deliberately technical trajectory: from a frontline technical support specialist working directly with end users and real-world edge cases, through QA testing with a focus on reproducibility and systemic thinking, to a full-stack web developer responsible for designing and implementing production-ready solutions. Parallel to this, I have worked with editorial content and for a period coordinated a team of copywriters as a project manager, combining process discipline with an eye for tone, style, and audience.
+At the same time, I also worked with content and coordinated a copywriting team. This experience helped me better understand processes, communication quality, and the connection between content, task goals, and audience needs.
 
-As a result, I have come to see my work as sitting at the intersection of systems engineering and storytelling. I found my professional path in game design precisely because it allows me to integrate two domains that have always defined my interests: the formal rigor of STEM (systems, mechanics, constraints) and the interpretive depth of the humanities (narrative, theme, character, worldbuilding).
+My current focus is full-stack web development, along with work at the intersection of gameplay and narrative design. I am especially interested in roles where technical systems, user experience, and content structure need to work together as one whole.
 
 ## Technology Stack
 
