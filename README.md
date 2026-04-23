@@ -36,9 +36,8 @@ React, jQuery (jQ within WordPress)
 Docker, VirtualBox, Hyper-V
 
 **Design and Multimedia:**
-- Adobe Photoshop (Clone Stamp tool)
-- Figma (UI/UX design)
 - Preparing mockups for merchandise printing (choosing formats, color profiles)
+- Adobe Photoshop, Figma (UI/UX design)
 - Video editing (FFmpeg, Adobe Premiere, Canva)
 
 **SEO (basic level):**
