@@ -1,8 +1,36 @@
-My professional path started in technical support, where I worked directly with users and handled non-standard cases. I then moved into QA, focusing on testing, bug reproducibility, and systematic problem analysis. Later, I transitioned into full-stack web development, where I began designing, building, and maintaining web solutions.
+## EARLY ENTRY INTO THE INDUSTRY
 
-At the same time, I also worked with content and coordinated a copywriting team. This experience helped me better understand processes, communication quality, and the connection between content, task goals, and audience needs.
+I entered IT at 18, starting with technical support at uCoz in 2011: users, non-standard cases, Jira, and product diagnostics.
 
-My current focus is full-stack web development, along with work at the intersection of gameplay and narrative design. I am especially interested in roles where technical systems, user experience, and content structure need to work together as one whole.
+My education developed outside the classical academic path, but self-directed learning was a natural model for me: I grew up in an academic environment where working with books, sources, and complex topics was part of everyday life.
+
+At that time, the environment for web development was less mature than today, so I had to gather knowledge independently: documentation, technical literature, university materials, courses, experiments, and real client cases.
+
+In late 2014, I relocated to my wife’s home country. My path was not tied to a local market, so relocation followed the model I had already built: learning and adapting.
+
+## FROM SUPPORT TO PRODUCT QUALITY
+
+In 2015, I moved into QA in the same product environment: functional testing, bug reproduction, system behavior analysis, and interaction with developers.
+
+This helped me move from a user-facing perspective toward engineering constraints.
+
+## SYSTEMS, TEXT, AND STRUCTURE
+
+From 2017 to 2018, I led a copywriting team at Scuba Space after an invitation from a former colleague from uCoz.
+
+I built the team from scratch across two language tracks, set up the workflow, coordinated writers and editors, and handled editorial review and content quality.
+
+Text, structure, and communication have always mattered to me as much as technology. Donald Knuth is one of the key authors in my life: his work treats programming as disciplined thinking, where code, text, proof, and architecture are interconnected.
+
+## WEB ENGINEERING AND GAMEDEV
+
+Since 2019, my main focus has been full-stack web development: client-side and server-side development, WordPress, Laravel, API, webhooks, deployment, infrastructure, code review, architecture, and technical consulting.
+
+In my freelance practice, I completed contracts for international companies and organizations in commercial, educational, and enterprise contexts, including market leaders. Details can be provided on request where permitted by the terms of cooperation.
+
+Since October 2025, I have also been working at Zhovten Games as a co-founder: gameplay systems, technical design, narrative/game design, core gameplay logic, prototyping subsystems, progression, and game structure.
+
+I am interested in literate programming, systems programming, C++, and co-authoring articles.
 
 ## Technology Stack
 
