@@ -1,10 +1,7 @@
 ## CURRENT FOCUS
 
-* Developing Code Constitution and applying its principles across existing and new projects.
-  [[Code Constitution](https://github.com/FOP-Oksana-Dubinetska/code-constitution)]
-
+* Developing [Code Constitution](https://github.com/FOP-Oksana-Dubinetska/code-constitution) and applying its principles across existing and new projects.
 * Interested in software engineering, systems thinking, and the humanities, with relevant commercial experience in web development and technical work.
-
 * Focused on systematization, optimization, LLM-assisted engineering, C++, literate programming, and technical writing.
 
 ## Portfolio
