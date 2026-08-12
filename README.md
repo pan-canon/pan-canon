@@ -1,8 +1,13 @@
-## CURRENT FOCUS
+## WORKING MODEL
 
-* Developing [Code Constitution](https://github.com/FOP-Oksana-Dubinetska/code-constitution) and applying its principles across existing and new projects.
-* Interested in software engineering, systems thinking, and the humanities, with relevant commercial experience in web development and technical work.
-* Focused on systematization, optimization, LLM-assisted engineering, C++, literate programming, and technical writing.
+1. **Governance.** Each project is progressively brought under **Code Constitution**: a project-specific Constitution and associated Legislation define its internal rules, architectural constraints, responsibilities, and decision boundaries for individual or team use. I am currently introducing this model across my existing projects.
+   [Code Constitution](https://github.com/FOP-Oksana-Dubinetska/code-constitution)
+2. **Licensing.** Each project follows a standardized repository licensing process covering ownership, authorship, reuse, distribution, and licensing boundaries.
+   [Repository Licensing Policy](https://github.com/FOP-Oksana-Dubinetska/repository-licensing-policy)
+3. **LLM-assisted work.** When LLMs are involved, I use **Prompt-Literate Workflow**, my methodology for structured and reviewable AI-assisted engineering. It integrates directly with Code Constitution: the model uses the project's Constitution and Legislation as governing references for its work rather than being trained on them.
+   [Prompt-Literate Workflow](https://github.com/IRONCREED/prompt-literate-workflow)
+
+My broader focus includes software engineering, systems thinking, systematization, optimization, C++, literate programming, technical writing, and the humanities.
 
 ## Portfolio
 
