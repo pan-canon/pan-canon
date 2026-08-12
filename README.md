@@ -1,36 +1,18 @@
-## EARLY ENTRY INTO THE INDUSTRY
+## CURRENT FOCUS
 
-I entered IT at 18, starting with technical support at uCoz in 2011: users, non-standard cases, Jira, and product diagnostics.
+* Developing Code Constitution and applying its principles across existing and new projects.
+  [[Code Constitution](https://github.com/FOP-Oksana-Dubinetska/code-constitution)]
 
-My education developed outside the classical academic path, but self-directed learning was a natural model for me: I grew up in an academic environment where working with books, sources, and complex topics was part of everyday life.
+* Interested in software engineering, systems thinking, and the humanities, with relevant commercial experience in web development and technical work.
 
-At that time, the environment for web development was less mature than today, so I had to gather knowledge independently: documentation, technical literature, university materials, courses, experiments, and real client cases.
+* Focused on systematization, optimization, LLM-assisted engineering, C++, literate programming, and technical writing.
 
-In late 2014, I relocated to my wife’s home country. My path was not tied to a local market, so relocation followed the model I had already built: learning and adapting.
+## Portfolio
 
-## FROM SUPPORT TO PRODUCT QUALITY
+Work at [@Zhovten Games](https://github.com/Zhovten-Games):
 
-In 2015, I moved into QA in the same product environment: functional testing, bug reproduction, system behavior analysis, and interaction with developers.
-
-This helped me move from a user-facing perspective toward engineering constraints.
-
-## SYSTEMS, TEXT, AND STRUCTURE
-
-From 2017 to 2018, I led a copywriting team at Scuba Space after an invitation from a former colleague from uCoz.
-
-I built the team from scratch across two language tracks, set up the workflow, coordinated writers and editors, and handled editorial review and content quality.
-
-Text, structure, and communication have always mattered to me as much as technology. Donald Knuth is one of the key authors in my life: his work treats programming as disciplined thinking, where code, text, proof, and architecture are interconnected.
-
-## WEB ENGINEERING AND GAMEDEV
-
-Since 2019, my main focus has been full-stack web development: client-side and server-side development, WordPress, Laravel, API, webhooks, deployment, infrastructure, code review, architecture, and technical consulting.
-
-In my freelance practice, I completed contracts for international companies and organizations in commercial, educational, and enterprise contexts, including market leaders. Details can be provided on request where permitted by the terms of cooperation.
-
-Since October 2025, I have also been working at Zhovten Games as a co-founder: gameplay systems, technical design, narrative/game design, core gameplay logic, prototyping subsystems, progression, and game structure.
-
-I am interested in literate programming, systems programming, C++, and co-authoring articles.
+* **Game development** — gameplay systems, progression, narrative structure, prototyping.
+* **IRONCREED** — software engineering, architecture, technical research, and LLM-assisted workflows.
 
 ## Technology Stack
 
@@ -80,14 +62,3 @@ Docker, VirtualBox, Hyper-V
 - DevOps (CI/CD, build and deployment automation)
 - OOP (Object-Oriented Programming: JavaScript, PHP)
 - BEM (BEM methodology for scalable CSS architecture)
-
-## Portfolio
-
-Explore my work with game teams at [@Zhovten Games](https://github.com/Zhovten-Games), designing and shipping narrative-driven game systems — core loops, progression, and story structures that work in real production, not just on paper.
-
-## In My Free Time
-
-I spend quality time with my family—teaching my son (see [kinder.github.io](https://github.com/pan-canon/kinder.github.io)) and sharing our love of games.
-
-| [![Steam](https://img.shields.io/badge/Steam-%231B2838?style=flat\&logo=steam\&logoColor=white)](https://steamcommunity.com/id/messrs-canon-and-tykhon/) | [![Xbox](https://img.shields.io/badge/Xbox-%231072CE?style=flat\&logo=xbox\&logoColor=white)](#) | [![Discord](https://img.shields.io/badge/Discord-%235865F2?style=flat\&logo=discord\&logoColor=white)](https://discord.com/users/pan_canon) |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------: |
