@@ -11,13 +11,23 @@ block-beta
     space:2
 
     %% ─────────────────────────────────────
-    %% ACTIVE / UPPER SYSTEM
+    %% FAMILY / SHARED-LIFE MILESTONES
     %% ─────────────────────────────────────
 
     space:2
-    LB1["LEBENSBUND"]
+    RL["Family Relocation<br/>to Spouse's Home Country"]
+    space
+    TB["Birth of Tykhon"]
+    space:5
+
+    %% ─────────────────────────────────────
+    %% SHARED-LIFE / ACTIVE SYSTEM
+    %% ─────────────────────────────────────
+
+    space:2
+    LB["LEBENSBUND"]
     space:3
-   LB2["LEBENSBUND"]
+   FOP["FOP Oksana<br/>Dubinetska"]
    ZGS["Zhovten Games"]
    ICS["IRON CREED"]
    space
@@ -67,16 +77,20 @@ block-beta
     %% UPPER HORIZONTAL SYSTEM
     %% ─────────────────────────────────────
 
-    LB1 --- LB2
-    LB2 --- ZGS
+    LB --- FOP
+    FOP --- ZGS
     ZGS --- ICS
+
+    %% Family continuity above LEBENSBUND
+    LB --- RL
+    RL --- TB
 
     %% ─────────────────────────────────────
     %% UPWARD BRANCHES
     %% ─────────────────────────────────────
 
-    M --- LB1
-    F --- LB2
+    M --- LB
+    F --- FOP
     ZG --- ZGS
     IC --- ICS
 
@@ -114,12 +128,12 @@ block-beta
     class B label;
 
     class H,T,S,W,F carrier;
-    class M personal;
-    class LB1,LB2 concept;
+    class M,RL,TB personal;
+    class LB concept;
 
     class ZG,IC current;
 
-    class ZGS,ICS active;
+    class FOP,ZGS,ICS active;
     class ID subproject;
 
     class UC,UK,SC,ZP,FR done;
@@ -144,8 +158,9 @@ BERUF ─────────────  chronological carrier
                      professional path / finite time allocation
 
         │
-        ├── ABOVE    active or continuing systems
-        │            structures that outlive a single role or period
+        ├── ABOVE    continuing life structures, personal milestones,
+        │            active systems, and structures that outlive
+        │            a single role or period
         │
         └── BELOW    historical work contexts
                      organizations attached to the role in which
@@ -730,7 +745,7 @@ BERUF :: CONTENTS
 │   │   ├── <a href="#freelance-stack">STACK / OVERRIDE</a>
 │   │   └── client / project work
 │   │
-│   └── <a href="#lebensbund">LEBENSBUND</a>
+│   └── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
 │
 ├── 2019 · <a href="#role-2019-junior-full-stack">Junior Full-Stack Web Engineer</a>
 │   │
@@ -767,6 +782,8 @@ BERUF :: CONTENTS
 ├── 2015 · <a href="#role-2015-marriage">Marriage</a>
 │   │
 │   └── <a href="#lebensbund">LEBENSBUND</a>
+│       ├── Family Relocation to Spouse's Home Country
+│       └── 2017 · Birth of Tykhon
 │
 └── 2011 · <a href="#role-2011-help-desk">Technical Help Desk Specialist</a>
     │
@@ -1431,9 +1448,11 @@ ROLE :: MIDDLE FULL-STACK WEB ENGINEER
 │       └── NOTE → later IRON CREED practices should not be
 │                  projected backward onto this period
 │
-└── WORK CONTEXTS
+└── CONTEXT / INTERSECTIONS
     ├── <a href="#freelance">Freelance</a>
-    └── <a href="#lebensbund">LEBENSBUND</a>
+    ├── <a href="#lebensbund">LEBENSBUND</a>
+    └── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
+        later contractual / organizational intersection
 </pre>
 
 </details>
@@ -1504,6 +1523,53 @@ FREELANCE
     └── independent freelance practice
         → shared methods / standards / public identity
         → <a href="#iron-creed">IRON CREED</a>
+</pre>
+
+</details>
+
+---
+
+<h2 id="fop-oksana-dubinetska">FOP Oksana Dubinetska</h2>
+
+<details>
+<summary><strong>Business ownership and relation to the shared professional contour</strong></summary>
+
+<br>
+
+<p>
+FOP Oksana Dubinetska is Oksana Dubinetska's independent game design,
+production and applied development practice. Its public GitHub profile
+presents Zhovten Games and IRON CREED as distinct work contours within
+that practice.
+</p>
+
+<p>
+On the BERUF map, this node replaces the former second LEBENSBUND label.
+It marks a concrete organizational and contractual intersection between
+the continuing shared-life axis, the independent-work line, and later
+professional systems.
+</p>
+
+<pre>
+FOP OKSANA DUBINETSKA
+│
+├── TYPE
+│   └── independent game design / production / applied development practice
+│
+├── OWNERSHIP
+│   └── Oksana Dubinetska
+│
+├── RELATION TO BERUF
+│   ├── organizational and contractual intersection with the shared-life axis
+│   ├── intersects the 2021 independent-work line
+│   └── continues into later co-founded systems
+│
+├── WORK CONTOURS
+│   ├── <a href="#zhovten-games">Zhovten Games</a>
+│   └── <a href="#iron-creed">IRON CREED</a>
+│
+└── REFERENCE
+    └── <a href="https://github.com/FOP-Oksana-Dubinetska">GitHub organization</a>
 </pre>
 
 </details>
@@ -1918,15 +1984,15 @@ MILESTONE :: MARRIAGE
 
 <p>
 LEBENSBUND represents the enduring shared-life and future-building axis
-that begins with marriage and continues alongside the professional
-trajectory.
+that begins with marriage and continues through family relocation, the
+birth of Tykhon, and the later professional trajectory.
 </p>
 
 <p>
 It is shown above the carrier because it outlives individual roles and
-periods. Later shared professional systems can emerge within the same
-life context, but LEBENSBUND itself remains distinct from employment,
-company ownership, or technical architecture.
+periods. The later FOP Oksana Dubinetska organization provides a concrete
+business and contractual intersection on that line, while LEBENSBUND itself
+remains distinct from any single professional or technical structure.
 </p>
 
 <pre>
@@ -1943,10 +2009,17 @@ LEBENSBUND
 │
 ├── RELATION TO BERUF
 │   ├── long-lived structure above the chronological carrier
-│   ├── intersects the 2021 independent-work period
+│   ├── continues through family relocation and the birth of Tykhon
+│   ├── intersects the later business contour through
+│   │   <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
 │   └── continues alongside later co-founded systems
 │
+├── FAMILY MILESTONES
+│   ├── Family Relocation to Spouse's Home Country
+│   └── 2017 · Birth of Tykhon
+│
 ├── PROFESSIONAL INTERSECTIONS
+│   ├── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
 │   ├── <a href="#zhovten-games">Zhovten Games</a>
 │   └── <a href="#iron-creed">IRON CREED</a>
 │
