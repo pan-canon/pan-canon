@@ -162,9 +162,9 @@ BERUF ─────────────  chronological carrier
 VERTICAL LINKS       derivation, attachment, ownership, or emergence
 
 SECONDARY
-HORIZONTAL LINKS     continuity or lineage between systems;
-                     they do not represent time unless they are
-                     part of the BERUF carrier
+HORIZONTAL LINKS     continuity, lineage, or institutional derivation
+                     between longer-lived systems; they do not represent
+                     time unless they are part of the BERUF carrier
 
 STACK                 effective context-local technical /
                       production stack
@@ -183,6 +183,15 @@ ARTIFACT              bounded output that may outlive the work period:
                       repository / application / publication /
                       build / pipeline / specification / release
 </pre>
+
+<p>
+On the upper institutional line, adjacent nodes may have different functions.
+<strong>FOP Oksana Dubinetska</strong> is the legal / contractual frame,
+<strong>Zhovten Games</strong> is the studio / production system, and
+<strong>IRON CREED</strong> is the applied IT / engineering practice of Zhovten Games.
+Their horizontal connection expresses institutional continuity and derivation;
+it does not make the three nodes equivalent in type.
+</p>
 
 <p>
 In the family branch, project-level logic describes commitments and undertakings,
@@ -230,6 +239,12 @@ DETAILS SHOULD
 ├── contain self-sufficient blocks
 ├── keep important headings visible outside the disclosure
 └── use summaries that remain meaningful when collapsed
+
+HEADING HIERARCHY
+│
+├── H2 → BERUF role / major document section
+├── H3 → direct child organization, practice, context, or project
+└── H4 → nested project / subsystem under an H3 parent
 </pre>
 
 <h2 id="stack-model">Stack Model</h2>
@@ -891,7 +906,7 @@ ROLE :: SENIOR FULL-STACK WEB ENGINEER / CO-FOUNDER / ENGINEERING MENTOR
 
 ---
 
-<h2 id="iron-creed">IRON CREED</h2>
+<h3 id="iron-creed">↳ IRON CREED</h3>
 <a id="iron-creed-stack"></a>
 <a id="iron-creed-governance"></a>
 <a id="iron-creed-licensing"></a>
@@ -925,6 +940,12 @@ IRON CREED
 │
 ├── PARENT
 │   └── <a href="#zhovten-games">Zhovten Games</a>
+│
+├── LEGAL / CONTRACTUAL FRAME
+│   └── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
+│
+├── INSTITUTIONAL LINEAGE
+│   └── FOP Oksana Dubinetska → Zhovten Games → IRON CREED
 │
 ├── IDENTITY
 │   ├── engineering practice
@@ -1086,7 +1107,7 @@ ROLE :: GAME SYSTEMS DESIGNER / CO-FOUNDER
 
 ---
 
-<h2 id="zhovten-games">Zhovten Games</h2>
+<h3 id="zhovten-games">↳ Zhovten Games</h3>
 <a id="zhovten-games-stack"></a>
 
 <details>
@@ -1112,7 +1133,14 @@ projects rather than being projected onto the studio as a whole.
 ZHOVTEN GAMES
 │
 ├── TYPE
-│   └── independent game development studio
+│   └── studio / production system
+│       independent game development studio
+│
+├── LEGAL / CONTRACTUAL FRAME
+│   └── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
+│
+├── INSTITUTIONAL CONTINUITY
+│   └── FOP Oksana Dubinetska → Zhovten Games
 │
 ├── SCOPE
 │   ├── narrative design
@@ -1157,7 +1185,7 @@ ZHOVTEN GAMES
 
 ---
 
-<h2 id="interdead-project-map">InterDead</h2>
+<h4 id="interdead-project-map">↳ InterDead</h4>
 <a id="interdead-stack"></a>
 <a id="interdead-canon"></a>
 <a id="interdead-canon-stack"></a>
@@ -1454,14 +1482,14 @@ ROLE :: MIDDLE FULL-STACK WEB ENGINEER
     ├── <a href="#freelance">Freelance</a>
     ├── <a href="#lebensbund">LEBENSBUND</a>
     └── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
-        later contractual / organizational intersection
+        legal / contractual frame that continues into later systems
 </pre>
 
 </details>
 
 ---
 
-<h2 id="freelance">Freelance</h2>
+<h3 id="freelance">↳ Freelance</h3>
 <a id="freelance-stack"></a>
 
 <details>
@@ -1531,44 +1559,55 @@ FREELANCE
 
 ---
 
-<h2 id="fop-oksana-dubinetska">FOP Oksana Dubinetska</h2>
+<h3 id="fop-oksana-dubinetska">↳ FOP Oksana Dubinetska</h3>
 
 <details>
-<summary><strong>Business ownership and relation to the shared professional contour</strong></summary>
+<summary><strong>Legal / contractual frame and institutional derivation</strong></summary>
 
 <br>
 
 <p>
-FOP Oksana Dubinetska is Oksana Dubinetska's independent game design,
-production and applied development practice. Its public GitHub profile
-presents Zhovten Games and IRON CREED as distinct work contours within
-that practice.
+FOP Oksana Dubinetska is the legal and contractual frame that enters the
+BERUF map on the 2021 independent-work line and continues through the later
+co-founded systems. Its placement records where this institutional branch
+intersects the chronology; it does not imply that the frame ends with the
+2021–2026 role.
 </p>
 
 <p>
-On the BERUF map, this node replaces the former second LEBENSBUND label.
-It marks a concrete organizational and contractual intersection between
-the continuing shared-life axis, the independent-work line, and later
-professional systems.
+The institutional sequence is deliberately asymmetric: FOP Oksana Dubinetska
+provides the legal / contractual frame; Zhovten Games develops as the studio /
+production system; IRON CREED develops inside Zhovten Games as its applied IT /
+engineering practice. The connection from LEBENSBUND to FOP records a shared-life
+and professional intersection, not ownership or derivation of the business from
+LEBENSBUND.
 </p>
 
 <pre>
 FOP OKSANA DUBINETSKA
 │
 ├── TYPE
-│   └── independent game design / production / applied development practice
+│   └── legal / contractual frame for independent professional activity
 │
 ├── OWNERSHIP
 │   └── Oksana Dubinetska
 │
-├── RELATION TO BERUF
-│   ├── organizational and contractual intersection with the shared-life axis
-│   ├── intersects the 2021 independent-work line
-│   └── continues into later co-founded systems
+├── MAP ENTRY
+│   └── 2021 · Middle Full-Stack Web Engineer
+│       institutional intersection with the independent-work line
 │
-├── WORK CONTOURS
-│   ├── <a href="#zhovten-games">Zhovten Games</a>
-│   └── <a href="#iron-creed">IRON CREED</a>
+├── RELATION TO BERUF
+│   ├── enters the chronology at the 2021 professional line
+│   ├── persists across later roles and systems
+│   └── intersects the shared-life axis through
+│       <a href="#lebensbund">LEBENSBUND</a> without being owned by it
+│
+├── INSTITUTIONAL DERIVATION
+│   └── FOP Oksana Dubinetska
+│       └── <a href="#zhovten-games">Zhovten Games</a>
+│           studio / production system
+│           └── <a href="#iron-creed">IRON CREED</a>
+│               applied IT / engineering practice
 │
 └── REFERENCE
     └── <a href="https://github.com/FOP-Oksana-Dubinetska">GitHub organization</a>
@@ -1646,7 +1685,7 @@ ROLE :: JUNIOR FULL-STACK WEB ENGINEER — WORDPRESS
 
 ---
 
-<h2 id="zipy-holdings">ZIPY HOLDINGS LTD.</h2>
+<h3 id="zipy-holdings">↳ ZIPY HOLDINGS LTD.</h3>
 <a id="zipy-holdings-stack"></a>
 <a id="glenbotal"></a>
 
@@ -1772,7 +1811,7 @@ ROLE :: PROJECT MANAGER / COPYWRITING TEAM
 
 ---
 
-<h2 id="scuba-space">Scuba Space</h2>
+<h3 id="scuba-space">↳ Scuba Space</h3>
 <a id="scuba-space-stack"></a>
 
 <details>
@@ -1879,7 +1918,7 @@ ROLE :: SOFTWARE TEST ENGINEER
 
 ---
 
-<h2 id="ukit">uKit</h2>
+<h3 id="ukit">↳ uKit</h3>
 <a id="ukit-stack"></a>
 
 <details>
@@ -1977,7 +2016,7 @@ MILESTONE :: MARRIAGE
 
 ---
 
-<h2 id="lebensbund">LEBENSBUND</h2>
+<h3 id="lebensbund">↳ LEBENSBUND</h3>
 
 <details>
 <summary><strong>Continuity, shared life axis and relation to BERUF</strong></summary>
@@ -1992,9 +2031,11 @@ parenthood with Tykhon, and the later professional trajectory.
 
 <p>
 It is shown above the carrier because it outlives individual roles and
-periods. The later FOP Oksana Dubinetska organization provides a concrete
-business and contractual intersection on that line, while LEBENSBUND itself
-remains distinct from any single professional or technical structure.
+periods. The later FOP Oksana Dubinetska frame provides a concrete business
+and contractual intersection on that line, while LEBENSBUND itself remains
+distinct from any single professional or technical structure. The link marks
+intersection rather than ownership: the institutional line continues through
+FOP Oksana Dubinetska → Zhovten Games → IRON CREED.
 </p>
 
 <pre>
@@ -2098,7 +2139,7 @@ ROLE :: TECHNICAL HELP DESK SPECIALIST
 
 ---
 
-<h2 id="ucoz">uCoz</h2>
+<h3 id="ucoz">↳ uCoz</h3>
 <a id="ucoz-stack"></a>
 
 <details>
