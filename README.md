@@ -3,22 +3,15 @@ block-beta
     columns 10
 
     %% ─────────────────────────────────────
-    %% ZHOVTEN GAMES SUBPROJECT — TOP
-    %% ─────────────────────────────────────
-
-    space:7
-    ID["InterDead"]
-    space:2
-
-    %% ─────────────────────────────────────
-    %% FAMILY / SHARED-LIFE MILESTONES
+    %% DERIVED PROJECTS / LONG-HORIZON COMMITMENTS
     %% ─────────────────────────────────────
 
     space:2
     RL["Family Relocation<br/>to Spouse's Home Country"]
-    space
-    TB["Birth of Tykhon"]
-    space:5
+    PT["Parenthood<br/>Tykhon"]
+    space:3
+    ID["InterDead"]
+    space:2
 
     %% ─────────────────────────────────────
     %% SHARED-LIFE / ACTIVE SYSTEM
@@ -81,10 +74,6 @@ block-beta
     FOP --- ZGS
     ZGS --- ICS
 
-    %% Family continuity above LEBENSBUND
-    LB --- RL
-    RL --- TB
-
     %% ─────────────────────────────────────
     %% UPWARD BRANCHES
     %% ─────────────────────────────────────
@@ -93,6 +82,10 @@ block-beta
     F --- FOP
     ZG --- ZGS
     IC --- ICS
+
+    %% Derived commitments / projects
+    LB --- RL
+    LB --- PT
 
     %% InterDead is a Zhovten Games subproject
     ZGS --- ID
@@ -128,7 +121,7 @@ block-beta
     class B label;
 
     class H,T,S,W,F carrier;
-    class M,RL,TB personal;
+    class M,RL,PT personal;
     class LB concept;
 
     class ZG,IC current;
@@ -158,9 +151,9 @@ BERUF ─────────────  chronological carrier
                      professional path / finite time allocation
 
         │
-        ├── ABOVE    continuing life structures, personal milestones,
-        │            active systems, and structures that outlive
-        │            a single role or period
+        ├── ABOVE    continuing life structures, intentional undertakings,
+        │            personal milestones, active systems, and structures
+        │            that outlive a single role or period
         │
         └── BELOW    historical work contexts
                      organizations attached to the role in which
@@ -178,8 +171,10 @@ STACK                 effective context-local technical /
 
 STACKSET              reusable versioned stack definition
 
-PROJECT               bounded body of work developed inside
-                      a role, organization, or larger system
+PROJECT               intentional undertaking derived from a larger life,
+                      professional, or institutional system; in this map
+                      the term includes commercial, technical, creative,
+                      familial, and civic undertakings
 
 SUBPROJECT            independently identifiable project layer
                       belonging to a larger project or system
@@ -188,6 +183,13 @@ ARTIFACT              bounded output that may outlive the work period:
                       repository / application / publication /
                       build / pipeline / specification / release
 </pre>
+
+<p>
+In the family branch, project-level logic describes commitments and undertakings,
+not people. <strong>Parenthood / Tykhon</strong> denotes the parental commitment
+and responsibility established through his birth; Tykhon himself is an autonomous
+person and is never modeled as a project or artifact.
+</p>
 
 <h3 id="presentation-rules">Presentation Rules</h3>
 
@@ -783,7 +785,7 @@ BERUF :: CONTENTS
 │   │
 │   └── <a href="#lebensbund">LEBENSBUND</a>
 │       ├── Family Relocation to Spouse's Home Country
-│       └── 2017 · Birth of Tykhon
+│       └── 2017 · Parenthood · Tykhon
 │
 └── 2011 · <a href="#role-2011-help-desk">Technical Help Desk Specialist</a>
     │
@@ -1984,8 +1986,8 @@ MILESTONE :: MARRIAGE
 
 <p>
 LEBENSBUND represents the enduring shared-life and future-building axis
-that begins with marriage and continues through family relocation, the
-birth of Tykhon, and the later professional trajectory.
+that begins with marriage and continues through family relocation,
+parenthood with Tykhon, and the later professional trajectory.
 </p>
 
 <p>
@@ -2009,14 +2011,14 @@ LEBENSBUND
 │
 ├── RELATION TO BERUF
 │   ├── long-lived structure above the chronological carrier
-│   ├── continues through family relocation and the birth of Tykhon
+│   ├── continues through family relocation and parenthood with Tykhon
 │   ├── intersects the later business contour through
 │   │   <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
 │   └── continues alongside later co-founded systems
 │
-├── FAMILY MILESTONES
+├── FAMILY / SHARED-LIFE COMMITMENTS
 │   ├── Family Relocation to Spouse's Home Country
-│   └── 2017 · Birth of Tykhon
+│   └── 2017 · Parenthood · Tykhon
 │
 ├── PROFESSIONAL INTERSECTIONS
 │   ├── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
