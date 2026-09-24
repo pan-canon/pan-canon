@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <details>
 <summary><strong>BERUF MAP</strong></summary>
 
@@ -3214,4 +3213,3 @@ SELECTED WORK
 </details>
 =======
 </details>
->>>>>>> 8df36a7 (uptd map)
