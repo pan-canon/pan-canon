@@ -1,11 +1,3 @@
-<details>
-<summary><strong>BERUF MAP</strong></summary>
-
-rendered Mermaid diagram · expand on GitHub.com; GitHub mobile apps may show Mermaid source
-
-<br>
-
-=======
 ## BERUF MAP
 
 Fixed SVG map · position = topology · hue = lineage · lightness = depth · shape = entity type.
@@ -16,7 +8,7 @@ and deeper IDs record child lineage while allowing siblings to keep distinct
 identifiers even when they share the same depth shade.
 
 <p align="center">
-  <img src="./assets/beruf-map-v.0.1.4.svg" alt="BERUF map: chronological carrier, LEBENSBUND lineage, FOP → Zhovten Games institutional lineage, InterDead, IRON CREED, and historical work contexts." width="100%">
+  <img src="./assets/beruf-map.svg" alt="BERUF map: chronological carrier, LEBENSBUND lineage, FOP → Zhovten Games institutional lineage, InterDead, IRON CREED, and historical work contexts." width="100%">
 </p>
 
 <details>
@@ -82,17 +74,14 @@ Monospace trees keep the same IDs where doing so improves orientation.
 <summary><strong>Historical Mermaid version</strong> · preserved as a historical / compatibility reference</summary>
 
 <br>
->>>>>>> 8df36a7 (uptd map)
 
 ```mermaid
 block-beta
     columns 10
 
-
     %% ─────────────────────────────────────
     %% DERIVED PROJECTS / LONG-HORIZON COMMITMENTS
     %% ─────────────────────────────────────
-
 
     space:2
     RL["C1.1<br/>Family Relocation<br/>to Spouse's Home Country"]
@@ -101,11 +90,9 @@ block-beta
     ID["C2.1.1<br/>InterDead"]
     space:2
 
-
     %% ─────────────────────────────────────
     %% SHARED-LIFE / ACTIVE SYSTEM
     %% ─────────────────────────────────────
-
 
     space:2
     LB["C1<br/>LEBENSBUND"]
@@ -115,11 +102,9 @@ block-beta
     ICS["C2.1.2<br/>IRON CREED"]
     space
 
-
     %% ─────────────────────────────────────
     %% BERUF — MAIN HORIZONTAL CARRIER
     %% ─────────────────────────────────────
-
 
     B["BERUF"]
     H["2011<br/>Technical Help Desk<br/>Specialist"]
@@ -128,21 +113,13 @@ block-beta
     S["2017<br/>Project Manager<br/>Copywriting Team"]
     W["2019<br/>Junior Full-Stack<br/>Web Engineer"]
     F["2021<br/>Middle Full-Stack<br/>Web Engineer"]
-<<<<<<< HEAD
-   ZG["2025<br/>Game Systems Designer<br/>/ Co-Founder"]
-   IC["2026<br/>Senior Full-Stack Web Engineer<br/>/ Engineering Mentor<br/>/ Co-Founder"]
-   space
-=======
     ZG["2025<br/>Game Systems Designer<br/>/ Co-Founder"]
     IC["2026<br/>Senior Full-Stack Web Engineer<br/>/ Engineering Mentor<br/>/ Co-Founder"]
     space
->>>>>>> 8df36a7 (uptd map)
-
 
     %% ─────────────────────────────────────
     %% HISTORICAL / COMPLETED — DOWN
     %% ─────────────────────────────────────
-
 
     space
     UC["uCoz"]
@@ -153,11 +130,9 @@ block-beta
     FR["Freelance"]
     space:3
 
-
     %% ─────────────────────────────────────
     %% MAIN HORIZONTAL CARRIER
     %% ─────────────────────────────────────
-
 
     B --- H
     H --- M
@@ -168,41 +143,33 @@ block-beta
     F --- ZG
     ZG --- IC
 
-
     %% ─────────────────────────────────────
     %% UPPER HORIZONTAL SYSTEM
     %% ─────────────────────────────────────
-
 
     LB --- FOP
     FOP --- ZGS
     ZGS --- ICS
 
-
     %% ─────────────────────────────────────
     %% UPWARD BRANCHES
     %% ─────────────────────────────────────
-
 
     M --- LB
     F --- FOP
     ZG --- ZGS
     IC --- ICS
 
-
     %% Derived commitments / projects
     LB --- RL
     LB --- PT
 
-
     %% InterDead is a Zhovten Games subproject
     ZGS --- ID
-
 
     %% ─────────────────────────────────────
     %% DOWNWARD / HISTORICAL BRANCHES
     %% ─────────────────────────────────────
-
 
     H --- UC
     UC --- UK
@@ -211,31 +178,10 @@ block-beta
     W --- ZP
     F --- FR
 
-
     %% ─────────────────────────────────────
     %% VISUAL LANGUAGE — historical Mermaid layer
     %% ─────────────────────────────────────
 
-<<<<<<< HEAD
-
-    classDef carrier fill:#ffffff,stroke:#7b858e,color:#18202a,stroke-width:1px;
-    classDef roleFop fill:#fffaf0,stroke:#c77800,color:#18202a,stroke-width:2px;
-    classDef roleZhovten fill:#f8f5ff,stroke:#6f42c1,color:#18202a,stroke-width:2px;
-    classDef roleIron fill:#f0fbff,stroke:#079bc9,color:#18202a,stroke-width:2px;
-    classDef personal fill:#fbf7ff,stroke:#8b5cf6,color:#18202a,stroke-width:1.5px,stroke-dasharray:4 3;
-    classDef concept fill:#fbf7ff,stroke:#8b5cf6,color:#18202a,stroke-width:1.5px;
-    classDef institutionalFop fill:#fffaf0,stroke:#c77800,color:#18202a,stroke-width:1.75px;
-    classDef institutionalZhovten fill:#f8f5ff,stroke:#6f42c1,color:#18202a,stroke-width:1.75px;
-    classDef institutionalIron fill:#f0fbff,stroke:#079bc9,color:#18202a,stroke-width:1.75px;
-    classDef subproject fill:#fff7ed,stroke:#c2410c,color:#18202a,stroke-width:1.75px;
-    classDef done fill:#f6f7f8,stroke:#b4bbc1,color:#626c75,stroke-width:1px;
-    classDef label fill:#0000,stroke:#0000,color:#18202a,font-weight:bold;
-
-
-    %% ─────────────────────────────────────
-    %% CLASS ASSIGNMENT
-    %% ─────────────────────────────────────
-=======
     classDef neutral fill:#ffffff,stroke:#64748B,color:#18202A,stroke-width:1px;
     classDef c1root fill:#FFF1F2,stroke:#9F1239,color:#4C0519,stroke-width:1.75px;
     classDef c1child fill:#FFF7F8,stroke:#E11D48,color:#4C0519,stroke-width:1.5px;
@@ -243,54 +189,8 @@ block-beta
     classDef c2child fill:#FFF7ED,stroke:#B45309,color:#451A03,stroke-width:1.5px;
     classDef c2grand fill:#FFF7ED,stroke:#D97706,color:#451A03,stroke-width:1.5px;
     classDef label fill:#0000,stroke:#0000,color:#18202A,font-weight:bold;
->>>>>>> 8df36a7 (uptd map)
-
 
     class B label;
-<<<<<<< HEAD
-
-
-    class H,T,S,W carrier;
-    class F roleFop;
-    class M,RL,PT personal;
-    class LB concept;
-
-
-    class ZG roleZhovten;
-    class IC roleIron;
-
-
-    class FOP institutionalFop;
-    class ZGS institutionalZhovten;
-    class ICS institutionalIron;
-    class ID subproject;
-
-
-    class UC,UK,SC,ZP,FR done;
-```
-
-
-<pre>
-MAP COLOR KEY
-
-
-#C77800  2021 professional line ↔ FOP Oksana Dubinetska
-#6F42C1  2025 game-systems line ↔ Zhovten Games
-#079BC9  2026 engineering line ↔ IRON CREED
-#8B5CF6  shared-life / personal continuity
-#C2410C  InterDead project branch
-#B4BBC1  historical / completed contexts
-
-
-Connectors remain neutral: color reinforces node-to-system correspondence
-without becoming the only carrier of relationship semantics.
-</pre>
-
-
-</details>
-
-
-=======
     class H,M,T,S,W,F,ZG,IC,UC,UK,SC,ZP,FR neutral;
     class LB c1root;
     class RL,PT c1child;
@@ -301,36 +201,25 @@ without becoming the only carrier of relationship semantics.
 
 </details>
 
->>>>>>> 8df36a7 (uptd map)
 ### How to read the map
-
 
 `BERUF` is the carrier of this map.
 
-
 The term is used partly in the Weberian sense: in *The Protestant Ethic and the Spirit of Capitalism*, **Beruf** carries both the ordinary meaning of occupation and the older sense of a calling or vocation. This map borrows that ambiguity, but extends it into a practical model of professional life.
-
 
 Here, the carrier represents the allocation of the primary non-renewable resource: **time**. Every role occupies part of that resource; projects, organizations, and longer-lived systems branch from the points where that time was invested.
 
-
 The visual model is deliberately closer to a **road map** than to a conventional résumé or organization chart: roles are stops on the main route, while companies, projects, systems, and artifacts appear as connected branches.
 
-<<<<<<< HEAD
-=======
 Color is deliberately orthogonal to position. **BERUF and its role chronology remain neutral.** A hue begins only when a durable lineage or system contour is established; lighter shades of the same hue indicate greater lineage depth. Entity type is expressed by shape rather than by assigning a new hue.
->>>>>>> 8df36a7 (uptd map)
 
 `STACK` is local to the node where it appears. It describes the technologies, languages, runtimes, platforms, architectural approaches, production methods, and tooling actually used in that context. Reusable parts of a stack are referenced through versioned `STACKSET`s rather than copied repeatedly.
-
 
 <pre>
 LINE SEMANTICS
 
-
 BERUF ─────────────  chronological carrier
                      professional path / finite time allocation
-
 
         │
         ├── ABOVE    continuing life structures, intentional undertakings,
@@ -341,38 +230,30 @@ BERUF ─────────────  chronological carrier
                      organizations attached to the role in which
                      that work was performed
 
-
 VERTICAL LINKS       derivation, attachment, ownership, or emergence
-
 
 SECONDARY
 HORIZONTAL LINKS     continuity, lineage, or institutional derivation
                      between longer-lived systems; they do not represent
                      time unless they are part of the BERUF carrier
 
-
 STACK                 effective context-local technical /
                       production stack
 
-
 STACKSET              reusable versioned stack definition
-
 
 PROJECT               intentional undertaking derived from a larger life,
                       professional, or institutional system; in this map
                       the term includes commercial, technical, creative,
                       familial, and civic undertakings
 
-
 SUBPROJECT            independently identifiable project layer
                       belonging to a larger project or system
-
 
 ARTIFACT              bounded output that may outlive the work period:
                       repository / application / publication /
                       build / pipeline / specification / release
 </pre>
-
 
 <p>
 On the upper institutional line, adjacent nodes may have different functions.
@@ -383,7 +264,6 @@ Their horizontal connection expresses institutional continuity and derivation;
 it does not make the three nodes equivalent in type.
 </p>
 
-
 <p>
 In the family branch, project-level logic describes commitments and undertakings,
 not people. <strong>Parenthood / Tykhon</strong> denotes the parental commitment
@@ -391,34 +271,17 @@ and responsibility established through his birth; Tykhon himself is an autonomou
 person and is never modeled as a project or artifact.
 </p>
 
-
 <h3 id="presentation-rules">Presentation Rules</h3>
 
-
 <p>
-<<<<<<< HEAD
-The map is the primary structural overview. It is exposed through a
-prominent disclosure at the top of the profile; detailed technical and
-historical information is progressively disclosed rather than rendered
-as one continuous document.
-=======
 The map is the primary structural overview. The authored SVG version
 remains permanently visible near the top of the profile, while
 supporting color definitions and the historical Mermaid version are
 progressively disclosed rather than rendered as one continuous document.
->>>>>>> 8df36a7 (uptd map)
 </p>
-
 
 <pre>
 PRESENTATION MODEL
-
-
-PRIMARY DISCLOSURE
-│
-└── BERUF map
-    collapsed by default; GitHub.com rendering recommended
-
 
 ALWAYS VISIBLE
 │
@@ -428,7 +291,6 @@ ALWAYS VISIBLE
 ├── Contents
 ├── professional / system headings
 └── Selected Projects & Artifacts overview
-
 
 COLLAPSED BY DEFAULT
 │
@@ -441,11 +303,9 @@ COLLAPSED BY DEFAULT
 ├── subsystem implementation details
 └── completed-work records
 
-
 RULE
 │
 └── overview first → evidence and implementation on demand
-
 
 DETAILS SHOULD
 │
@@ -454,7 +314,6 @@ DETAILS SHOULD
 ├── keep important headings visible outside the disclosure
 └── use summaries that remain meaningful when collapsed
 
-
 HEADING HIERARCHY
 │
 ├── H2 → BERUF role / cross-period institutional frame / major document section
@@ -462,9 +321,7 @@ HEADING HIERARCHY
 └── H4 → nested project / subsystem under an H3 parent
 </pre>
 
-
 <h2 id="stack-model">Stack Model</h2>
-
 
 <p>
 A <strong>STACKSET</strong> is a reusable canonical bundle of technologies,
@@ -474,28 +331,18 @@ copy the bundle. It references one or more STACKSETs through
 <strong>OVERRIDE</strong>.
 </p>
 
-
 <p>
 The resulting <strong>STACK</strong> is contextual: it is the combination
 of all referenced STACKSETs after local overrides have been applied.
 </p>
 
-
 <details>
 <summary><strong>STACK / STACKSET rules, overrides and versioning</strong></summary>
 
-
 <br>
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 <pre>
 STACK MODEL
-
 
 STACK
 │
@@ -510,12 +357,6 @@ STACK
     ├── REPLACE   → explicit substitution of one component
     └── NOTE      → contextual qualification without changing membership
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 EFFECTIVE STACK
     = USE(STACKSET...)
     + ADD
@@ -524,9 +365,7 @@ EFFECTIVE STACK
     + NOTE
 </pre>
 
-
 <h3 id="stack-rules">Stack Rules</h3>
-
 
 <p>
 STACKSETs exist to normalize repeated technical context, not to create
@@ -537,10 +376,8 @@ engineering activity with enough internal structure to be meaningful
 as a unit.
 </p>
 
-
 <pre>
 STACKSET CREATION RULE
-
 
 CREATE STACKSET when
 │
@@ -549,24 +386,15 @@ CREATE STACKSET when
 └── OR
     the set represents a stable engineering / production discipline
 
-
 KEEP AS OVERRIDE when
 │
 ├── the technology is specific to one project or artifact
 ├── the component merely modifies a broader reusable stack
 └── there is not yet enough stable context to define the bundle
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 COMPOSITION OVER INHERITANCE
 
-
 preferred:
-
 
 Node
 ├── USE → STACKSET-A@1
@@ -574,9 +402,7 @@ Node
 └── OVERRIDE
     └── local differences
 
-
 avoid:
-
 
 STACK-A
 └── STACK-B
@@ -584,47 +410,34 @@ STACK-A
         └── PROJECT-SPECIFIC-STACK
 </pre>
 
-
 <p>
 Overrides are intentionally explicit. They prevent a reusable STACKSET
 from being duplicated merely because one project adds, removes, or
 substitutes a small number of components.
 </p>
 
-
 <pre>
 OVERRIDE RULES
-
 
 ADD
 │
 └── introduces a component that belongs only to this context
 
-
 REMOVE
 │
 └── explicitly excludes a component inherited through USE
-
 
 REPLACE
 │
 └── records a real substitution rather than pretending that
     both inherited and replacement technologies were used
 
-
 NOTE
 │
 └── qualifies scope, responsibility, maturity, or usage without
     changing the effective membership of the stack
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 EXAMPLE
-
 
 InterDeadCore
 │
@@ -641,39 +454,31 @@ InterDeadCore
                    not the C++ Game Core
 </pre>
 
-
 <p>
 STACKSET versions are historically stable. Once a version is referenced
 by a historical role, project, or artifact, a material change creates a
 new version rather than silently rewriting the old context.
 </p>
 
-
 <pre>
 VERSIONING RULE
-
 
 STACKSET@1
 │
 └── frozen once historical contexts depend on it
 
-
 material change
 │
 └── create STACKSET@2
-
 
 local difference
 │
 └── keep STACKSET@1 + OVERRIDE
 </pre>
 
-
 </details>
 
-
 <h3 id="stackset-registry">Stackset Registry</h3>
-
 
 <pre>
 STACKSET REGISTRY
@@ -703,13 +508,10 @@ STACKSET REGISTRY
     └── <a id="stackset-llm-engineering-v1"></a>LLM-ENGINEERING@1
 </pre>
 
-
 <details>
 <summary><strong>STACKSET definitions</strong></summary>
 
-
 <br>
-
 
 <pre>
 SUPPORT-WEB@1
@@ -722,12 +524,6 @@ SUPPORT-WEB@1
 ├── user communication
 └── technical documentation
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 QA-WEB@1
 │
 ├── functional testing
@@ -737,12 +533,6 @@ QA-WEB@1
 ├── verification
 └── development-team collaboration
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 EDITORIAL-PM@1
 │
 ├── recruitment
@@ -754,12 +544,6 @@ EDITORIAL-PM@1
 ├── multilingual workflow
 └── delivery control
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 WEB-FULLSTACK@1
 │
 ├── HTML / CSS
@@ -769,12 +553,6 @@ WEB-FULLSTACK@1
 ├── REST APIs / Webhooks
 └── Git
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 NODE-TOOLING@1
 │
 ├── Node.js
@@ -785,12 +563,6 @@ NODE-TOOLING@1
 ├── build / transformation scripts
 └── repository automation
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 TYPESCRIPT-APPLICATION@1
 │
 ├── TypeScript
@@ -800,12 +572,6 @@ TYPESCRIPT-APPLICATION@1
 ├── type checking
 └── TypeScript → JavaScript build flow
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 UNIX-OPS@1
 │
 ├── Linux
@@ -816,12 +582,6 @@ UNIX-OPS@1
 ├── TCP/IP configuration
 └── firewall / network configuration
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 WINDOWS-AUTOMATION@1
 │
 ├── PowerShell
@@ -830,12 +590,6 @@ WINDOWS-AUTOMATION@1
 ├── Git workflow automation
 └── local development environment scripting
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 WORDPRESS-WEB@1
 │
 ├── WordPress
@@ -844,12 +598,6 @@ WORDPRESS-WEB@1
 ├── theme / frontend integration
 └── production maintenance
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 WEB-DELIVERY@1
 │
 ├── build processes
@@ -858,12 +606,6 @@ WEB-DELIVERY@1
 ├── CI / CD
 └── production verification
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 CLOUDFLARE-WEB@1
 │
 ├── Cloudflare Pages
@@ -872,24 +614,12 @@ CLOUDFLARE-WEB@1
 ├── KV
 └── edge deployment
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 CONTAINERS-VIRTUALIZATION@1
 │
 ├── Docker
 ├── VirtualBox
 └── Hyper-V
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 HEXAGONAL-SYSTEMS@1
 │
 ├── Hexagonal Architecture
@@ -899,12 +629,6 @@ HEXAGONAL-SYSTEMS@1
 ├── replaceable adapters
 └── explicit system boundaries
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 GAME-SYSTEMS@1
 │
 ├── gameplay systems
@@ -915,12 +639,6 @@ GAME-SYSTEMS@1
 ├── dependency / state modeling
 └── project-system architecture
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 PROCESS-OPTIMIZATION@1
 │
 ├── task decomposition
@@ -930,12 +648,6 @@ PROCESS-OPTIMIZATION@1
 ├── acceptance criteria
 └── workflow stabilization
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 RESEARCH-PUBLISHING@1
 │
 ├── research
@@ -944,12 +656,6 @@ RESEARCH-PUBLISHING@1
 ├── reproducible publishing
 └── research-to-engineering transfer
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 ENGINEERING-GOVERNANCE@1
 │
 ├── architectural constraints
@@ -959,12 +665,6 @@ ENGINEERING-GOVERNANCE@1
 ├── repository licensing policy
 └── controlled change procedures
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 LLM-ENGINEERING@1
 │
 ├── bounded task decomposition
@@ -974,19 +674,14 @@ LLM-ENGINEERING@1
 └── traceable acceptance
 </pre>
 
-
 </details>
 
-
 <h3 id="stackset-cpp-status">Why there is no C++ STACKSET yet</h3>
-
 
 <details>
 <summary><strong>C++ normalization status and future STACKSET</strong></summary>
 
-
 <br>
-
 
 <p>
 C++ is intentionally not represented by a reusable STACKSET at this
@@ -994,7 +689,6 @@ stage. Its absence does not mean that C++ is outside the current work.
 InterDead is moving toward an independent C++ Game Core, but that
 runtime is still being formalized as a distinct engineering contour.
 </p>
-
 
 <p>
 The stack model records verified technical contexts rather than broad
@@ -1005,10 +699,8 @@ Unreal adapter, runtime contracts, and related tooling — rather than
 contain only the label “C++”.
 </p>
 
-
 <pre>
 C++ STATUS
-
 
 C++
 │
@@ -1033,17 +725,9 @@ C++
         └── Unreal integration should be described from
             the implemented adapter rather than assumed
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8df36a7 (uptd map)
 FUTURE
 
-
 when the implementation contour is stable:
-
 
 CXX-GAME-RUNTIME@1
 │
@@ -1056,7 +740,6 @@ CXX-GAME-RUNTIME@1
 └── runtime-specific tooling
 </pre>
 
-
 <p>
 This follows the same rule used elsewhere: a technology becomes part of
 a STACKSET when there is enough concrete, reusable context to define the
@@ -1064,12 +747,9 @@ set honestly. Until then it belongs to the project description or to a
 local OVERRIDE if a specific artifact already uses it.
 </p>
 
-
 </details>
 
-
 <h2 id="contents">Contents</h2>
-
 
 <pre>
 BERUF :: CONTENTS
@@ -1134,11 +814,7 @@ BERUF :: CONTENTS
 │       ├── <a href="#freelance-stack">STACK / OVERRIDE</a>
 │       └── client / project work
 │
-<<<<<<< HEAD
-├── ↑ <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
-=======
 ├── [C2] ↑ <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
->>>>>>> 8df36a7 (uptd map)
 │   └── legal / contractual frame spanning later roles and systems
 │
 ├── 2019 · <a href="#role-2019-junior-full-stack">Junior Full-Stack Web Engineer</a>
@@ -1188,13 +864,8 @@ BERUF :: CONTENTS
     └── <a href="#ucoz">uCoz</a>
         └── <a href="#ucoz-stack">STACK / OVERRIDE</a>
 
-
 ────────────────────────────────────────────────────────────────────
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8df36a7 (uptd map)
 <a href="#selected-work">SELECTED PROJECTS &amp; ARTIFACTS</a>
 │
 ├── <a href="#selected-projects">Projects</a>
@@ -1219,23 +890,15 @@ BERUF :: CONTENTS
     └── <a href="#record-wordpress-profile">WordPress.org · IRONCREED profile</a>
 </pre>
 
-
 ---
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8df36a7 (uptd map)
 <h2 id="role-2026-senior-full-stack">2026 · Senior Full-Stack Web Engineer / Engineering Mentor / Co-Founder</h2>
 <a id="role-2026-senior-full-stack-stack"></a>
-
 
 <details>
 <summary><strong>Role details · August 2026 → Present · IRON CREED</strong></summary>
 
-
 <br>
-
 
 <p>
 Since August 2026, I work through IRON CREED in a role that combines
@@ -1244,14 +907,12 @@ automation, delivery, technical documentation, verification, code review,
 and engineering mentorship.
 </p>
 
-
 <p>
 The role is broader in engineering scope than my parallel studio role at
 Zhovten Games. It includes not only implementation, but also technical
 direction, working methods, architectural decisions, review standards,
 and the transfer of reusable engineering practices between projects.
 </p>
-
 
 <pre>
 ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
@@ -1302,18 +963,11 @@ ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
         applied IT and engineering practice
 </pre>
 
-
 </details>
-
 
 ---
 
-<<<<<<< HEAD
-
-<h3 id="iron-creed">↳ IRON CREED</h3>
-=======
 <h3 id="iron-creed">[C2.1.2] ↳ IRON CREED</h3>
->>>>>>> 8df36a7 (uptd map)
 <a id="iron-creed-stack"></a>
 <a id="iron-creed-governance"></a>
 <a id="iron-creed-licensing"></a>
@@ -1321,19 +975,15 @@ ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
 <a id="iron-creed-warden"></a>
 <a id="iron-creed-material-cycle"></a>
 
-
 <details>
 <summary><strong>Practice scope, stack, working model and references</strong></summary>
 
-
 <br>
-
 
 <p>
 IRON CREED is the applied IT and engineering practice of Zhovten Games
 and the personified engineering process behind its IT practice.
 </p>
-
 
 <p>
 It connects development, infrastructure, automation, security, research,
@@ -1342,7 +992,6 @@ verified and changed deliberately. Implementation, documentation,
 research and verification are treated as connected parts of the same
 engineering process rather than as unrelated stages.
 </p>
-
 
 <pre>
 IRON CREED
@@ -1455,23 +1104,17 @@ IRON CREED
     └── <a href="https://github.com/pan-canon">Sam / GitHub</a>
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h2 id="role-2025-game-systems-designer">2025 · Game Systems Designer / Co-Founder</h2>
 <a id="role-2025-game-systems-designer-stack"></a>
 
-
 <details>
 <summary><strong>Role details · October 2025 → Present · Zhovten Games</strong></summary>
 
-
 <br>
-
 
 <p>
 Since October 2025, I work within Zhovten Games on gameplay systems,
@@ -1479,14 +1122,12 @@ technical design and the implementation layer that connects narrative
 structure with executable game logic.
 </p>
 
-
 <p>
 The role focuses on systems architecture and technical implementation:
 quest and progression logic, state and dependency modelling, prototypes,
 runtime integration, development constraints, and the translation of
 design concepts into structures that can be implemented and maintained.
 </p>
-
 
 <pre>
 ROLE :: GAME SYSTEMS DESIGNER / CO-FOUNDER
@@ -1531,27 +1172,17 @@ ROLE :: GAME SYSTEMS DESIGNER / CO-FOUNDER
         └── [C2.1.1] <a href="#interdead-project-map">InterDead</a>
 </pre>
 
-
 </details>
-
 
 ---
 
-<<<<<<< HEAD
-
-<h3 id="zhovten-games">↳ Zhovten Games</h3>
-=======
 <h3 id="zhovten-games">[C2.1] ↳ Zhovten Games</h3>
->>>>>>> 8df36a7 (uptd map)
 <a id="zhovten-games-stack"></a>
-
 
 <details>
 <summary><strong>Studio scope, responsibility, stack and projects</strong></summary>
 
-
 <br>
-
 
 <p>
 Zhovten Games is an independent game development studio combining
@@ -1560,14 +1191,12 @@ game mechanics, narrative structure and monetisation into coherent,
 implementable player experiences.
 </p>
 
-
 <p>
 My technical responsibility inside the studio centres on gameplay systems
 architecture, technical implementation and system-level integration.
 Concrete runtimes and implementation technologies belong to individual
 projects rather than being projected onto the studio as a whole.
 </p>
-
 
 <pre>
 ZHOVTEN GAMES
@@ -1624,18 +1253,11 @@ ZHOVTEN GAMES
     └── <a href="https://www.linkedin.com/company/zhovten-games/">LinkedIn</a>
 </pre>
 
-
 </details>
-
 
 ---
 
-<<<<<<< HEAD
-
-<h4 id="interdead-project-map">↳ InterDead</h4>
-=======
 <h4 id="interdead-project-map">[C2.1.1] ↳ InterDead</h4>
->>>>>>> 8df36a7 (uptd map)
 <a id="interdead-stack"></a>
 <a id="interdead-canon"></a>
 <a id="interdead-canon-stack"></a>
@@ -1648,20 +1270,16 @@ ZHOVTEN GAMES
 <a id="interdead-research"></a>
 <a id="interdead-research-stack"></a>
 
-
 <details>
 <summary><strong>Architecture, repositories, runtime contours and research</strong></summary>
 
-
 <br>
-
 
 <p>
 InterDead is a co-authored Zhovten Games narrative horror system built across
 game systems, public interfaces, reusable domain packages, prototypes,
 canon infrastructure, and supporting research.
 </p>
-
 
 <p>
 The current public web/prototype contour and the emerging game runtime are
@@ -1670,7 +1288,6 @@ it is the existing TypeScript monorepo for shared web-side domain packages.
 The future game runtime is centred on an independent C++ Game Core, with
 Unreal and Web / WASM treated as parallel projections through adapters.
 </p>
-
 
 <pre>
 INTERDEAD
@@ -1870,23 +1487,17 @@ INTERDEAD
                        corresponding artifact or repository
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h2 id="role-2021-middle-full-stack">2021 · Middle Full-Stack Web Engineer</h2>
 <a id="role-2021-middle-full-stack-stack"></a>
 
-
 <details>
 <summary><strong>Role details · September 2021 → August 2026 · Freelance</strong></summary>
 
-
 <br>
-
 
 <p>
 From September 2021 to August 2026, I worked independently across
@@ -1894,14 +1505,12 @@ client-side and server-side web development, integrations, deployment,
 existing infrastructure, and ongoing production support.
 </p>
 
-
 <p>
 This period became the bridge between employment-based engineering and
 the later IRON CREED practice. The work remained client- and project-oriented,
 but expanded from implementation into consulting, code review, onboarding,
 technical decisions, delivery, and practical knowledge transfer.
 </p>
-
 
 <pre>
 ROLE :: MIDDLE FULL-STACK WEB ENGINEER
@@ -1951,29 +1560,22 @@ ROLE :: MIDDLE FULL-STACK WEB ENGINEER
         legal / contractual frame that continues into later systems
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h3 id="freelance">↳ Freelance</h3>
 <a id="freelance-stack"></a>
 
-
 <details>
 <summary><strong>Work context, stack and transition to IRON CREED</strong></summary>
 
-
 <br>
-
 
 <p>
 Freelance represents the independent client-work context of the
 2021–2026 period rather than a company or separate organization.
 </p>
-
 
 <p>
 Projects differed in platform and scope, but the recurring pattern was
@@ -1981,7 +1583,6 @@ end-to-end web engineering: understanding an existing system, implementing
 or repairing the required layer, integrating external services, and
 bringing the result through deployment or production support.
 </p>
-
 
 <pre>
 FREELANCE
@@ -2029,26 +1630,16 @@ FREELANCE
         → <a href="#iron-creed">IRON CREED</a>
 </pre>
 
-
 </details>
-
 
 ---
 
-<<<<<<< HEAD
-
-<h2 id="fop-oksana-dubinetska">↑ ↳ FOP Oksana Dubinetska</h2>
-
-=======
 <h2 id="fop-oksana-dubinetska">[C2] ↑ ↳ FOP Oksana Dubinetska</h2>
->>>>>>> 8df36a7 (uptd map)
 
 <details>
 <summary><strong>Legal / contractual frame and institutional derivation</strong></summary>
 
-
 <br>
-
 
 <p>
 FOP Oksana Dubinetska is the legal and contractual frame that enters the
@@ -2058,7 +1649,6 @@ intersects the chronology; it does not imply that the frame ends with the
 2021–2026 role.
 </p>
 
-
 <p>
 The institutional sequence is deliberately asymmetric: FOP Oksana Dubinetska
 provides the legal / contractual frame; Zhovten Games develops as the studio /
@@ -2067,7 +1657,6 @@ engineering practice. The connection from LEBENSBUND to FOP records a shared-lif
 and professional intersection, not ownership or derivation of the business from
 LEBENSBUND.
 </p>
-
 
 <pre>
 FOP OKSANA DUBINETSKA
@@ -2102,29 +1691,22 @@ FOP OKSANA DUBINETSKA
     └── <a href="https://github.com/FOP-Oksana-Dubinetska">GitHub organization</a>
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h2 id="role-2019-junior-full-stack">2019 · Junior Full-Stack Web Engineer — WordPress</h2>
 <a id="role-2019-junior-full-stack-stack"></a>
 
-
 <details>
 <summary><strong>Role details · November 2019 → August 2021 · ZIPY HOLDINGS LTD.</strong></summary>
 
-
 <br>
-
 
 <p>
 From November 2019 to August 2021, I worked with ZIPY HOLDINGS LTD.
 on a WordPress-based subscription-commerce platform for premium spirits.
 </p>
-
 
 <p>
 The work combined backend and frontend development with production
@@ -2132,7 +1714,6 @@ responsibility: custom WooCommerce functionality, subscription logic,
 implementation from Figma, performance optimization, security hardening,
 SEO, localization, and ongoing support.
 </p>
-
 
 <pre>
 ROLE :: JUNIOR FULL-STACK WEB ENGINEER — WORDPRESS
@@ -2178,37 +1759,29 @@ ROLE :: JUNIOR FULL-STACK WEB ENGINEER — WORDPRESS
     └── <a href="#zipy-holdings">ZIPY HOLDINGS LTD.</a>
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h3 id="zipy-holdings">↳ ZIPY HOLDINGS LTD.</h3>
 <a id="zipy-holdings-stack"></a>
 <a id="glenbotal"></a>
 
-
 <details>
 <summary><strong>Organization context, stack and selected work</strong></summary>
 
-
 <br>
-
 
 <p>
 ZIPY HOLDINGS LTD. is the historical organization attached to the
 2019–2021 WordPress engineering period.
 </p>
 
-
 <p>
 My documented work there centres on a subscription-commerce product
 for premium spirits, with Glenbotal preserved as the selected public
 example of that work.
 </p>
-
 
 <pre>
 ZIPY HOLDINGS LTD.
@@ -2247,23 +1820,17 @@ ZIPY HOLDINGS LTD.
         premium-spirits subscription-commerce platform
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h2 id="role-2017-project-manager">2017 · Project Manager / Copywriting Team</h2>
 <a id="role-2017-project-manager-stack"></a>
 
-
 <details>
 <summary><strong>Role details · October 2017 → September 2018 · Scuba Space</strong></summary>
 
-
 <br>
-
 
 <p>
 From October 2017 to September 2018, I built and operated a copywriting
@@ -2272,14 +1839,12 @@ task distribution, editorial review, coordination, quality control,
 and delivery stability.
 </p>
 
-
 <p>
 The role was primarily organizational and editorial rather than technical.
 I managed a team of more than twenty writers, editors, and contributors
 and was responsible for keeping the production process coherent,
 consistent, and predictable.
 </p>
-
 
 <pre>
 ROLE :: PROJECT MANAGER / COPYWRITING TEAM
@@ -2320,29 +1885,22 @@ ROLE :: PROJECT MANAGER / COPYWRITING TEAM
     └── <a href="#scuba-space">Scuba Space</a>
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h3 id="scuba-space">↳ Scuba Space</h3>
 <a id="scuba-space-stack"></a>
 
-
 <details>
 <summary><strong>Organization context and editorial-management stack</strong></summary>
 
-
 <br>
-
 
 <p>
 Scuba Space is the historical contract context attached to the
 2017–2018 editorial project-management period.
 </p>
-
 
 <pre>
 SCUBA SPACE
@@ -2372,30 +1930,23 @@ SCUBA SPACE
                    unless supported by a historical source
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h2 id="role-2015-software-test">2015 · Software Test Engineer</h2>
 <a id="role-2015-software-test-stack"></a>
 
-
 <details>
 <summary><strong>Role details · October 2015 → September 2017 · uKit</strong></summary>
 
-
 <br>
-
 
 <p>
 From October 2015 to September 2017, I moved from technical support into
 software testing within the same broader product environment, with the
 uKit product becoming the primary testing context.
 </p>
-
 
 <p>
 The work covered functional testing, bug reproduction, system-behavior
@@ -2404,7 +1955,6 @@ with development. This period shifted my perspective from user-facing
 support toward product logic, engineering constraints, and systematic
 verification.
 </p>
-
 
 <pre>
 ROLE :: SOFTWARE TEST ENGINEER
@@ -2442,30 +1992,23 @@ ROLE :: SOFTWARE TEST ENGINEER
     └── <a href="#ukit">uKit</a>
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h3 id="ukit">↳ uKit</h3>
 <a id="ukit-stack"></a>
 
-
 <details>
 <summary><strong>Product context, QA stack and uCoz continuity</strong></summary>
 
-
 <br>
-
 
 <p>
 uKit is the product context attached to the 2015–2017 QA period and
 continues the broader product environment in which the earlier uCoz
 support work took place.
 </p>
-
 
 <pre>
 uKIT
@@ -2502,22 +2045,16 @@ uKIT
                    only verified work context is represented
 </pre>
 
-
 </details>
-
 
 ---
 
-
 <h2 id="role-2015-marriage">2015 · Marriage</h2>
-
 
 <details>
 <summary><strong>Context for the LEBENSBUND continuity line</strong></summary>
 
-
 <br>
-
 
 <p>
 Marriage appears on the BERUF carrier because this map models the
@@ -2526,14 +2063,12 @@ origin point of <a href="#lebensbund">LEBENSBUND</a>, a continuing shared-life
 axis that persists across several professional periods.
 </p>
 
-
 <p>
 This node is not an employer, job title, or project. Its purpose is to
 show that long-lived personal structures can shape where time is invested
 and can later intersect with professional systems without being reduced
 to them.
 </p>
-
 
 <pre>
 MILESTONE :: MARRIAGE
@@ -2560,33 +2095,22 @@ MILESTONE :: MARRIAGE
         production, project, and artifact contexts
 </pre>
 
-
 </details>
-
 
 ---
 
-<<<<<<< HEAD
-
-<h3 id="lebensbund">↳ LEBENSBUND</h3>
-=======
 <h3 id="lebensbund">[C1] ↳ LEBENSBUND</h3>
->>>>>>> 8df36a7 (uptd map)
-
 
 <details>
 <summary><strong>Continuity, shared life axis and relation to BERUF</strong></summary>
 
-
 <br>
-
 
 <p>
 LEBENSBUND represents the enduring shared-life and future-building axis
 that begins with marriage and continues through family relocation,
 parenthood with Tykhon, and the later professional trajectory.
 </p>
-
 
 <p>
 It is shown above the carrier because it outlives individual roles and
@@ -2596,7 +2120,6 @@ distinct from any single professional or technical structure. The link marks
 intersection rather than ownership: the institutional line continues through
 FOP Oksana Dubinetska → Zhovten Games → IRON CREED.
 </p>
-
 
 <pre>
 LEBENSBUND
@@ -2635,23 +2158,17 @@ LEBENSBUND
         a technical or production system
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h2 id="role-2011-help-desk">2011 · Technical Help Desk Specialist</h2>
 <a id="role-2011-help-desk-stack"></a>
 
-
 <details>
 <summary><strong>Role details · December 2011 → October 2015 · uCoz</strong></summary>
 
-
 <br>
-
 
 <p>
 From December 2011 to October 2015, I worked in technical support at
@@ -2659,13 +2176,11 @@ uCoz, resolving both standard and non-standard user issues and handling
 tasks that sometimes required code-level intervention.
 </p>
 
-
 <p>
 The work also included Jira-based task handling, communication quality,
 internal alignment, technically oriented materials, and selected
 layout/content tasks for company projects.
 </p>
-
 
 <pre>
 ROLE :: TECHNICAL HELP DESK SPECIALIST
@@ -2706,30 +2221,23 @@ ROLE :: TECHNICAL HELP DESK SPECIALIST
     └── <a href="#ucoz">uCoz</a>
 </pre>
 
-
 </details>
 
-
 ---
-
 
 <h3 id="ucoz">↳ uCoz</h3>
 <a id="ucoz-stack"></a>
 
-
 <details>
 <summary><strong>Organization context and support stack</strong></summary>
 
-
 <br>
-
 
 <p>
 uCoz is the historical company and product environment attached to the
 2011–2015 technical-support period and the earlier side of the transition
 into the later uKit QA role.
 </p>
-
 
 <pre>
 uCOZ
@@ -2767,16 +2275,10 @@ uCOZ
         later QA / product-testing context
 </pre>
 
-
 </details>
-
 
 ---
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 8df36a7 (uptd map)
 <a id="completed-work"></a>
 <h2 id="selected-work">Selected Projects &amp; Artifacts</h2>
 <a id="project-interdead"></a>
@@ -2793,23 +2295,6 @@ uCOZ
 <a id="artifact-canon-horror"></a>
 <a id="artifact-zg-journal-template"></a>
 
-<<<<<<< HEAD
-
-<p>
-The BERUF carrier records where time was invested. This section is a selected
-cross-index of projects, durable artifacts, and public professional records
-that remain useful as evidence after that investment.
-</p>
-
-
-<p>
-A <strong>project</strong> is an independently identifiable undertaking and
-may be active or completed. An <strong>artifact</strong> is a bounded durable
-output — software, documentation, a publication, a methodology, a pipeline,
-a build, or a released prototype. A <strong>public record</strong> documents
-professional participation or release identity without being treated as an
-artifact in its own right.
-=======
 <p>
 The BERUF carrier records where time was invested. This section is a selected
 cross-index of projects, durable artifacts, and public professional records
@@ -2830,17 +2315,7 @@ Every entry remains attached to its originating role, organization, project,
 or system. Status belongs to the entry itself: an active project can contain
 released artifacts, and a historical role can leave public artifacts that
 remain available.
->>>>>>> 8df36a7 (uptd map)
 </p>
-
-
-<p>
-Every entry remains attached to its originating role, organization, project,
-or system. Status belongs to the entry itself: an active project can contain
-released artifacts, and a historical role can leave public artifacts that
-remain available.
-</p>
-
 
 <a id="completed-projects"></a>
 <a id="selected-projects"></a>
@@ -2849,13 +2324,8 @@ remain available.
 <a id="public-records"></a>
 <details>
 <summary><strong>2 selected projects · 11 selected artifacts · 2 public records</strong></summary>
-<<<<<<< HEAD
-
-=======
->>>>>>> 8df36a7 (uptd map)
 
 <br>
-
 
 <pre>
 SELECTED WORK
@@ -2868,11 +2338,7 @@ SELECTED WORK
 │   │   │   └── active game project / narrative horror system
 │   │   │
 │   │   ├── ORIGIN
-<<<<<<< HEAD
-│   │   │   └── <a href="#zhovten-games">Zhovten Games</a>
-=======
 │   │   │   └── [C2.1] <a href="#zhovten-games">Zhovten Games</a>
->>>>>>> 8df36a7 (uptd map)
 │   │   │
 │   │   ├── STATUS
 │   │   │   └── active development
@@ -2929,11 +2395,7 @@ SELECTED WORK
 │   └── <a href="https://profiles.wordpress.org/ironcreed/">WordPress.org · IRONCREED profile</a>
 │       │
 │       ├── ORIGIN
-<<<<<<< HEAD
-│       │   └── <a href="#iron-creed">IRON CREED</a>
-=======
 │       │   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
->>>>>>> 8df36a7 (uptd map)
 │       │
 │       ├── TYPE
 │       │   └── public engineering / release identity surface
@@ -2987,23 +2449,6 @@ SELECTED WORK
     │                      to the historical ZIPY context
     │
     ├── <a href="https://zhovten.games/projects/psyframework/">PsyFramework</a>
-<<<<<<< HEAD
-    │   │
-    │   ├── ORIGIN
-    │   │   └── <a href="#zhovten-games">Zhovten Games</a> / InterDead research support
-    │   │
-    │   ├── TYPE
-    │   │   └── browser prototype / research tooling for player psyche mechanics
-    │   │
-    │   ├── STATUS
-    │   │   └── public prototype / maintained project
-    │   │
-    │   └── REFERENCE
-    │       └── <a href="https://github.com/Zhovten-Games/PsyFramework">GitHub repository</a>
-    │
-    ├── <a href="https://zhovten.games/projects/safe-blind-zones-live-tester/">Safe / Blind Zones — Live Tester</a>
-=======
->>>>>>> 8df36a7 (uptd map)
     │   │
     │   ├── ORIGIN
     │   │   └── [C2.1] <a href="#zhovten-games">Zhovten Games</a> / InterDead research support
@@ -3048,11 +2493,7 @@ SELECTED WORK
     ├── <a href="https://wordpress.org/plugins/ironcreed-request-log/">IRONCREED Request Log</a>
     │   │
     │   ├── ORIGIN
-<<<<<<< HEAD
-    │   │   └── <a href="#iron-creed">IRON CREED</a>
-=======
     │   │   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
->>>>>>> 8df36a7 (uptd map)
     │   │
     │   ├── TYPE
     │   │   └── WordPress plugin / request-observation tool
@@ -3208,8 +2649,4 @@ SELECTED WORK
                 └── ADD  → itch.io deployment target
 </pre>
 
-<<<<<<< HEAD
-
-</details>
-=======
 </details>
