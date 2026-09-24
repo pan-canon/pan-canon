@@ -8,7 +8,7 @@ and deeper IDs record child lineage while allowing siblings to keep distinct
 identifiers even when they share the same depth shade.
 
 <p align="center">
-  <img src="./assets/beruf-map.svg" alt="BERUF map: chronological carrier, LEBENSBUND lineage, FOP → Zhovten Games institutional lineage, InterDead, IRON CREED, and historical work contexts." width="100%">
+  <img src="./assets/beruf-map-v.0.1.4.svg" alt="BERUF map: chronological carrier, LEBENSBUND lineage, FOP → Zhovten Games institutional lineage, InterDead, IRON CREED, and historical work contexts." width="100%">
 </p>
 
 <details>
