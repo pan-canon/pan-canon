@@ -1,77 +1,11 @@
-## BERUF MAP
-
-Fixed SVG map · position = topology · hue = lineage · lightness = depth · shape = entity type.
-
-Structural IDs keep the family logic explicit outside the graphic itself:
-**C1** is the LEBENSBUND branch, **C2** is the FOP / institutional branch,
-and deeper IDs record child lineage while allowing siblings to keep distinct
-identifiers even when they share the same depth shade.
+<h2 id="beruf-map">BERUF Map</h2>
 
 <p align="center">
   <img src="./assets/beruf-map-v.0.1.4.svg" alt="BERUF map: chronological carrier, LEBENSBUND lineage, FOP → Zhovten Games institutional lineage, InterDead, IRON CREED, and historical work contexts." width="100%">
 </p>
 
 <details>
-<summary><strong>Lineage color system / structural IDs</strong></summary>
-
-<br>
-
-<pre>
-LINEAGE COLOR SYSTEM
-
-BERUF / historical neutral
-  carrier         #475569
-  role / context  #64748B
-  historical      #94A3B8
-
-C1 · LEBENSBUND
-  C1 root         #9F1239
-  depth +1        #E11D48
-  depth +2        #FB7185
-
-C2 · FOP / institutional lineage
-  C2 root         #92400E
-  depth +1        #B45309
-  depth +2        #D97706
-  depth +3        #F59E0B
-
-STRUCTURAL IDS
-
-C1       LEBENSBUND
-├── C1.1 Family Relocation to Spouse's Home Country
-└── C1.2 Parenthood / Tykhon
-
-C2       FOP Oksana Dubinetska
-└── C2.1 Zhovten Games
-    ├── C2.1.1 InterDead
-    └── C2.1.2 IRON CREED
-
-RULES
-
-hue       = lineage
-lightness = lineage depth
-position  = topology / relation to BERUF
-shape     = entity type
-
-Sibling IDs are distinct even when their depth shade is identical.
-Marriage and professional roles remain neutral BERUF nodes; they are
-intersection / origin points, not color roots.
-
-LEBENSBUND ↔ FOP is an intersection, not derivation. Its map edge uses
-a rose → amber transition and a dashed stroke.
-
-OUTSIDE THE MAP
-
-Markdown cannot reliably reproduce exact lineage colors in text.
-Visible headings and important cross-indexes therefore carry structural
-IDs such as [C2], [C2.1], [C2.1.1], and [C2.1.2].
-Monospace trees keep the same IDs where doing so improves orientation.
-</pre>
-
-</details>
-
-<details>
-<summary><strong>Historical Mermaid version</strong> · preserved as a historical / compatibility reference</summary>
+<summary><strong>Historical Mermaid Map</strong> · archival and compatibility reference</summary>
 
 <br>
 
@@ -201,555 +135,186 @@ block-beta
 
 </details>
 
-### How to read the map
+<h3 id="how-to-read-the-map">Map Notes</h3>
 
-`BERUF` is the carrier of this map.
+`BERUF` denotes the chronological carrier through which this map relates
+professional activity to enduring personal and institutional commitments.
+The term retains the occupational and vocational senses examined in Max
+Weber's *The Protestant Ethic and the Spirit of Capitalism*. Within the
+present model, these senses inform an account of the allocation of **finite,
+non-renewable time**: roles identify periods of activity, while projects,
+organizations and continuing systems branch from the points at which that
+activity establishes a durable relation.
 
-The term is used partly in the Weberian sense: in *The Protestant Ethic and the Spirit of Capitalism*, **Beruf** carries both the ordinary meaning of occupation and the older sense of a calling or vocation. This map borrows that ambiguity, but extends it into a practical model of professional life.
+The map uses a route-based topology. Position expresses structural relation;
+hue identifies lineage; lightness indicates lineage depth; and shape denotes
+entity type. The carrier and its role chronology remain neutral. Structural
+identifiers preserve the distinction between the **C1 / LEBENSBUND** lineage
+and the **C2 / FOP institutional** lineage, including the individual identity
+of descendants situated at the same depth.
 
-Here, the carrier represents the allocation of the primary non-renewable resource: **time**. Every role occupies part of that resource; projects, organizations, and longer-lived systems branch from the points where that time was invested.
-
-The visual model is deliberately closer to a **road map** than to a conventional résumé or organization chart: roles are stops on the main route, while companies, projects, systems, and artifacts appear as connected branches.
-
-Color is deliberately orthogonal to position. **BERUF and its role chronology remain neutral.** A hue begins only when a durable lineage or system contour is established; lighter shades of the same hue indicate greater lineage depth. Entity type is expressed by shape rather than by assigning a new hue.
-
-`STACK` is local to the node where it appears. It describes the technologies, languages, runtimes, platforms, architectural approaches, production methods, and tooling actually used in that context. Reusable parts of a stack are referenced through versioned `STACKSET`s rather than copied repeatedly.
-
-<pre>
-LINE SEMANTICS
-
-BERUF ─────────────  chronological carrier
-                     professional path / finite time allocation
-
-        │
-        ├── ABOVE    continuing life structures, intentional undertakings,
-        │            personal milestones, active systems, and structures
-        │            that outlive a single role or period
-        │
-        └── BELOW    historical work contexts
-                     organizations attached to the role in which
-                     that work was performed
-
-VERTICAL LINKS       derivation, attachment, ownership, or emergence
-
-SECONDARY
-HORIZONTAL LINKS     continuity, lineage, or institutional derivation
-                     between longer-lived systems; they do not represent
-                     time unless they are part of the BERUF carrier
-
-STACK                 effective context-local technical /
-                      production stack
-
-STACKSET              reusable versioned stack definition
-
-PROJECT               intentional undertaking derived from a larger life,
-                      professional, or institutional system; in this map
-                      the term includes commercial, technical, creative,
-                      familial, and civic undertakings
-
-SUBPROJECT            independently identifiable project layer
-                      belonging to a larger project or system
-
-ARTIFACT              bounded output that may outlive the work period:
-                      repository / application / publication /
-                      build / pipeline / specification / release
-</pre>
-
-<p>
-On the upper institutional line, adjacent nodes may have different functions.
-<strong>FOP Oksana Dubinetska</strong> is the legal / contractual frame,
-<strong>Zhovten Games</strong> is the studio / production system, and
-<strong>IRON CREED</strong> is the applied IT / engineering practice of Zhovten Games.
-Their horizontal connection expresses institutional continuity and derivation;
-it does not make the three nodes equivalent in type.
-</p>
-
-<p>
-In the family branch, project-level logic describes commitments and undertakings,
-not people. <strong>Parenthood / Tykhon</strong> denotes the parental commitment
-and responsibility established through his birth; Tykhon himself is an autonomous
-person and is never modeled as a project or artifact.
-</p>
-
-<h3 id="presentation-rules">Presentation Rules</h3>
-
-<p>
-The map is the primary structural overview. The authored SVG version
-remains permanently visible near the top of the profile, while
-supporting color definitions and the historical Mermaid version are
-progressively disclosed rather than rendered as one continuous document.
-</p>
-
-<pre>
-PRESENTATION MODEL
-
-ALWAYS VISIBLE
-│
-├── short map explanation
-├── fixed SVG BERUF map
-├── compact STACKSET registry
-├── Contents
-├── professional / system headings
-└── Selected Projects & Artifacts overview
-
-COLLAPSED BY DEFAULT
-│
-├── lineage color system / structural IDs
-├── historical Mermaid version
-├── STACK / STACKSET rules and definitions
-├── role details
-├── organization / system details
-├── project architecture
-├── subsystem implementation details
-└── completed-work records
-
-RULE
-│
-└── overview first → evidence and implementation on demand
-
-DETAILS SHOULD
-│
-├── preserve stable anchors
-├── contain self-sufficient blocks
-├── keep important headings visible outside the disclosure
-└── use summaries that remain meaningful when collapsed
-
-HEADING HIERARCHY
-│
-├── H2 → BERUF role / cross-period institutional frame / major document section
-├── H3 → direct child organization, practice, context, or project
-└── H4 → nested project / subsystem under an H3 parent
-</pre>
-
-<h2 id="stack-model">Stack Model</h2>
-
-<p>
-A <strong>STACKSET</strong> is a reusable canonical bundle of technologies,
-methods, platforms, runtimes, or production practices. A node does not
-copy the bundle. It references one or more STACKSETs through
-<strong>USE</strong> and records only its local differences through
-<strong>OVERRIDE</strong>.
-</p>
-
-<p>
-The resulting <strong>STACK</strong> is contextual: it is the combination
-of all referenced STACKSETs after local overrides have been applied.
-</p>
+The sections below follow the chronology in reverse order. The FOP frame
+retains its point of entry at the 2021 independent-work line and its
+continuity across subsequent roles. Institutional descent is recorded by
+the C2 identifiers; the position of a section records its relation to the
+chronology. Technical contexts are specified locally through `STACK` and
+the versioned `STACKSET` definitions in the [technical reference](#stack-model).
 
 <details>
-<summary><strong>STACK / STACKSET rules, overrides and versioning</strong></summary>
+<summary><strong>Map Annotations: Relations and Entity Types</strong></summary>
+
+<br>
+
+| Element | Interpretation |
+| --- | --- |
+| BERUF carrier | Professional and personal chronology; allocation of finite time. |
+| Above the carrier | Continuing life structures, intentional undertakings, personal milestones and systems extending beyond a single role or period. |
+| Below the carrier | Historical work contexts, attached to the roles in which the work was performed. |
+| Vertical connections | Derivation, attachment, ownership or emergence, as specified by the connected entities. |
+| Secondary horizontal connections | Continuity, lineage or institutional derivation between enduring systems. Chronological time is expressed by the BERUF carrier. |
+| STACK | The effective technical and production context of an individual node: technologies, languages, runtimes, platforms, architectural approaches, production methods and tooling. |
+| STACKSET | A reusable, versioned definition referenced by a local stack. |
+| Project | An intentional undertaking within a larger personal, professional or institutional system, including commercial, technical, creative, familial and civic commitments. |
+| Subproject | An independently identifiable project layer within a larger project or system. |
+| Artifact | A bounded output capable of outliving its production period: repository, application, publication, build, pipeline, specification or release. |
+
+<p>
+The upper institutional line connects entities with distinct functions.
+<strong>FOP Oksana Dubinetska</strong> provides the legal and contractual
+frame; <strong>Zhovten Games</strong> constitutes the studio and production
+system; and <strong>IRON CREED</strong> constitutes its applied IT and
+engineering practice. Their connection records institutional continuity
+and derivation while preserving these differences in entity type.
+</p>
+
+<p>
+Within the family lineage, project-level descriptions concern commitments
+and undertakings. <strong>Parenthood / Tykhon</strong> denotes the parental
+commitment and responsibility established through his birth. Tykhon is an
+autonomous person; the project and artifact categories apply exclusively
+to the undertaking and its outputs.
+</p>
+
+</details>
+
+<details>
+<summary><strong>Lineage Colours and Structural Identifiers</strong></summary>
 
 <br>
 
 <pre>
-STACK MODEL
+LINEAGE COLOR SYSTEM
 
-STACK
-│
-├── USE
-│   ├── STACKSET-A@1
-│   ├── STACKSET-B@1
-│   └── ...
-│
-└── OVERRIDE
-    ├── ADD       → local component not present in referenced sets
-    ├── REMOVE    → inherited component not used in this context
-    ├── REPLACE   → explicit substitution of one component
-    └── NOTE      → contextual qualification without changing membership
+BERUF / historical neutral
+  carrier         #475569
+  role / context  #64748B
+  historical      #94A3B8
 
-EFFECTIVE STACK
-    = USE(STACKSET...)
-    + ADD
-    - REMOVE
-    + REPLACE
-    + NOTE
-</pre>
+C1 · LEBENSBUND
+  C1 root         #9F1239
+  depth +1        #E11D48
+  depth +2        #FB7185
 
-<h3 id="stack-rules">Stack Rules</h3>
+C2 · FOP / institutional lineage
+  C2 root         #92400E
+  depth +1        #B45309
+  depth +2        #D97706
+  depth +3        #F59E0B
 
-<p>
-STACKSETs exist to normalize repeated technical context, not to create
-a taxonomy entry for every technology that has ever appeared in the work.
-A new STACKSET should represent either a reusable technical environment
-that occurs in multiple independent contexts or a stable type of
-engineering activity with enough internal structure to be meaningful
-as a unit.
-</p>
+STRUCTURAL IDS
 
-<pre>
-STACKSET CREATION RULE
+C1       LEBENSBUND
+├── C1.1 Family Relocation to Spouse's Home Country
+└── C1.2 Parenthood / Tykhon
 
-CREATE STACKSET when
-│
-├── the same coherent stack recurs across multiple contexts
-│
-└── OR
-    the set represents a stable engineering / production discipline
+C2       FOP Oksana Dubinetska
+└── C2.1 Zhovten Games
+    ├── C2.1.1 InterDead
+    └── C2.1.2 IRON CREED
 
-KEEP AS OVERRIDE when
-│
-├── the technology is specific to one project or artifact
-├── the component merely modifies a broader reusable stack
-└── there is not yet enough stable context to define the bundle
+RULES
 
-COMPOSITION OVER INHERITANCE
+hue       = lineage
+lightness = lineage depth
+position  = topology / relation to BERUF
+shape     = entity type
 
-preferred:
+Sibling IDs are distinct even when their depth shade is identical.
+Marriage and professional roles remain neutral BERUF nodes and serve
+as intersection or origin points. Lineage roots carry the branch hues.
 
-Node
-├── USE → STACKSET-A@1
-├── USE → STACKSET-B@1
-└── OVERRIDE
-    └── local differences
+LEBENSBUND ↔ FOP denotes an intersection of shared life and
+professional activity. A dashed edge with a rose-to-amber transition
+distinguishes this relation from institutional derivation.
 
-avoid:
+OUTSIDE THE MAP
 
-STACK-A
-└── STACK-B
-    └── STACK-C
-        └── PROJECT-SPECIFIC-STACK
-</pre>
-
-<p>
-Overrides are intentionally explicit. They prevent a reusable STACKSET
-from being duplicated merely because one project adds, removes, or
-substitutes a small number of components.
-</p>
-
-<pre>
-OVERRIDE RULES
-
-ADD
-│
-└── introduces a component that belongs only to this context
-
-REMOVE
-│
-└── explicitly excludes a component inherited through USE
-
-REPLACE
-│
-└── records a real substitution rather than pretending that
-    both inherited and replacement technologies were used
-
-NOTE
-│
-└── qualifies scope, responsibility, maturity, or usage without
-    changing the effective membership of the stack
-
-EXAMPLE
-
-InterDeadCore
-│
-└── STACK
-    ├── USE → TYPESCRIPT-APPLICATION@1
-    ├── USE → NODE-TOOLING@1
-    ├── USE → HEXAGONAL-SYSTEMS@1
-    │
-    └── OVERRIDE
-        ├── ADD  → @interdead/identity-core
-        ├── ADD  → @interdead/efbd-scale
-        ├── ADD  → @interdead/framework
-        └── NOTE → web-side shared domain packages;
-                   not the C++ Game Core
-</pre>
-
-<p>
-STACKSET versions are historically stable. Once a version is referenced
-by a historical role, project, or artifact, a material change creates a
-new version rather than silently rewriting the old context.
-</p>
-
-<pre>
-VERSIONING RULE
-
-STACKSET@1
-│
-└── frozen once historical contexts depend on it
-
-material change
-│
-└── create STACKSET@2
-
-local difference
-│
-└── keep STACKSET@1 + OVERRIDE
+Markdown cannot reliably reproduce exact lineage colors in text.
+Visible headings and important cross-indexes therefore carry structural
+IDs such as [C2], [C2.1], [C2.1.1], and [C2.1.2].
+Monospace trees keep the same IDs where doing so improves orientation.
 </pre>
 
 </details>
 
-<h3 id="stackset-registry">Stackset Registry</h3>
-
-<pre>
-STACKSET REGISTRY
-│
-├── FOUNDATION / RUNTIMES
-│   ├── <a id="stackset-support-web-v1"></a>SUPPORT-WEB@1
-│   ├── <a id="stackset-qa-web-v1"></a>QA-WEB@1
-│   ├── <a id="stackset-editorial-pm-v1"></a>EDITORIAL-PM@1
-│   ├── <a id="stackset-web-fullstack-v1"></a>WEB-FULLSTACK@1
-│   ├── <a id="stackset-node-tooling-v1"></a>NODE-TOOLING@1
-│   ├── <a id="stackset-typescript-application-v1"></a>TYPESCRIPT-APPLICATION@1
-│   ├── <a id="stackset-unix-ops-v1"></a>UNIX-OPS@1
-│   └── <a id="stackset-windows-automation-v1"></a>WINDOWS-AUTOMATION@1
-│
-├── PLATFORMS / DELIVERY
-│   ├── <a id="stackset-wordpress-web-v1"></a>WORDPRESS-WEB@1
-│   ├── <a id="stackset-web-delivery-v1"></a>WEB-DELIVERY@1
-│   ├── <a id="stackset-cloudflare-web-v1"></a>CLOUDFLARE-WEB@1
-│   └── <a id="stackset-containers-virtualization-v1"></a>CONTAINERS-VIRTUALIZATION@1
-│
-└── ARCHITECTURE / METHODS
-    ├── <a id="stackset-hexagonal-systems-v1"></a>HEXAGONAL-SYSTEMS@1
-    ├── <a id="stackset-game-systems-v1"></a>GAME-SYSTEMS@1
-    ├── <a id="stackset-process-optimization-v1"></a>PROCESS-OPTIMIZATION@1
-    ├── <a id="stackset-research-publishing-v1"></a>RESEARCH-PUBLISHING@1
-    ├── <a id="stackset-engineering-governance-v1"></a>ENGINEERING-GOVERNANCE@1
-    └── <a id="stackset-llm-engineering-v1"></a>LLM-ENGINEERING@1
-</pre>
-
 <details>
-<summary><strong>STACKSET definitions</strong></summary>
+<summary><strong>Presentation and Heading Conventions</strong></summary>
 
 <br>
 
-<pre>
-SUPPORT-WEB@1
-│
-├── technical support
-├── web-platform diagnostics
-├── issue reproduction
-├── Jira-based task flow
-├── code-level troubleshooting
-├── user communication
-└── technical documentation
-
-QA-WEB@1
-│
-├── functional testing
-├── bug reproduction
-├── system-behavior analysis
-├── integration testing
-├── verification
-└── development-team collaboration
-
-EDITORIAL-PM@1
-│
-├── recruitment
-├── onboarding
-├── task distribution
-├── editorial review
-├── team coordination
-├── quality control
-├── multilingual workflow
-└── delivery control
-
-WEB-FULLSTACK@1
-│
-├── HTML / CSS
-├── JavaScript ES6+
-├── PHP
-├── SQL
-├── REST APIs / Webhooks
-└── Git
-
-NODE-TOOLING@1
-│
-├── Node.js
-├── JavaScript ES6+
-├── ESM / CommonJS modules
-├── CLI tooling
-├── filesystem automation
-├── build / transformation scripts
-└── repository automation
-
-TYPESCRIPT-APPLICATION@1
-│
-├── TypeScript
-├── static typing
-├── typed contracts
-├── modular packages
-├── type checking
-└── TypeScript → JavaScript build flow
-
-UNIX-OPS@1
-│
-├── Linux
-├── BSD / Unix-like systems
-├── Bash
-├── SSH
-├── deployment / administration
-├── TCP/IP configuration
-└── firewall / network configuration
-
-WINDOWS-AUTOMATION@1
-│
-├── PowerShell
-├── Windows shell automation
-├── filesystem / repository tooling
-├── Git workflow automation
-└── local development environment scripting
-
-WORDPRESS-WEB@1
-│
-├── WordPress
-├── WooCommerce
-├── custom plugin / module development
-├── theme / frontend integration
-└── production maintenance
-
-WEB-DELIVERY@1
-│
-├── build processes
-├── deployment
-├── infrastructure integration
-├── CI / CD
-└── production verification
-
-CLOUDFLARE-WEB@1
-│
-├── Cloudflare Pages
-├── Cloudflare Workers
-├── D1
-├── KV
-└── edge deployment
-
-CONTAINERS-VIRTUALIZATION@1
-│
-├── Docker
-├── VirtualBox
-└── Hyper-V
-
-HEXAGONAL-SYSTEMS@1
-│
-├── Hexagonal Architecture
-├── Ports &amp; Adapters
-├── dependency inversion
-├── domain / infrastructure separation
-├── replaceable adapters
-└── explicit system boundaries
-
-GAME-SYSTEMS@1
-│
-├── gameplay systems
-├── narrative systems
-├── technical design
-├── prototyping
-├── quest / progression logic
-├── dependency / state modeling
-└── project-system architecture
-
-PROCESS-OPTIMIZATION@1
-│
-├── task decomposition
-├── backlog structuring
-├── phase planning
-├── risk identification
-├── acceptance criteria
-└── workflow stabilization
-
-RESEARCH-PUBLISHING@1
-│
-├── research
-├── technical writing
-├── documentation
-├── reproducible publishing
-└── research-to-engineering transfer
-
-ENGINEERING-GOVERNANCE@1
-│
-├── architectural constraints
-├── canonical-source discipline
-├── documented development rules
-├── review / verification
-├── repository licensing policy
-└── controlled change procedures
-
-LLM-ENGINEERING@1
-│
-├── bounded task decomposition
-├── explicit prompt contracts
-├── human-authored planning
-├── review / tests / smoke checks
-└── traceable acceptance
-</pre>
-
-</details>
-
-<h3 id="stackset-cpp-status">Why there is no C++ STACKSET yet</h3>
-
-<details>
-<summary><strong>C++ normalization status and future STACKSET</strong></summary>
-
-<br>
+<h3 id="presentation-rules">Document Conventions</h3>
 
 <p>
-C++ is intentionally not represented by a reusable STACKSET at this
-stage. Its absence does not mean that C++ is outside the current work.
-InterDead is moving toward an independent C++ Game Core, but that
-runtime is still being formalized as a distinct engineering contour.
+The visible reading sequence comprises the authored SVG map, the collapsed
+historical map, explanatory notes, contents, chronological sections and the
+selected-work overview. The STACKSET registry and its methodological
+definitions form the technical reference at the end of the document.
 </p>
 
 <p>
-The stack model records verified technical contexts rather than broad
-technology familiarity or intended future use. A useful C++ STACKSET
-should therefore describe the actual runtime environment around the
-language — build system, tests, dependency model, WebAssembly boundary,
-Unreal adapter, runtime contracts, and related tooling — rather than
-contain only the label “C++”.
+Supporting annotations, historical representations, role descriptions,
+system records, project architecture and implementation evidence are
+disclosed through self-contained sections. Each section retains stable
+anchors and a summary that identifies its subject independently of its
+expanded content. Principal professional and system headings remain
+visible when the associated records are collapsed.
 </p>
 
-<pre>
-C++ STATUS
-
-C++
-│
-├── current status
-│   └── active / emerging game-runtime technology
-│
-├── known architectural position
-│   ├── Scenario
-│   │   └── separate linguistic source
-│   │
-│   └── C++ Game Core
-│       ├── Unreal        → projection / adapter
-│       └── Web / WASM    → projection / adapter
-│
-└── STACKSET status
-    └── NOT YET DEFINED
-        │
-        ├── build system not fixed here
-        ├── test stack not fixed here
-        ├── dependency model not fixed here
-        ├── WASM boundary still belongs to runtime design
-        └── Unreal integration should be described from
-            the implemented adapter rather than assumed
-
-FUTURE
-
-when the implementation contour is stable:
-
-CXX-GAME-RUNTIME@1
-│
-├── C++
-├── build system
-├── testing
-├── dependency / package model
-├── WebAssembly boundary
-├── Unreal adapter boundary
-└── runtime-specific tooling
-</pre>
+| Heading | Structural function |
+| --- | --- |
+| H2 | BERUF role, personal milestone, cross-period institutional frame or major document section. |
+| H3 | Directly associated organization, practice or context; subdivision of a major document section. |
+| H4 | Project or subsystem nested within an H3 context. |
 
 <p>
-This follows the same rule used elsewhere: a technology becomes part of
-a STACKSET when there is enough concrete, reusable context to define the
-set honestly. Until then it belongs to the project description or to a
-local OVERRIDE if a specific artifact already uses it.
+Heading depth expresses documentary containment. Institutional lineage is
+identified separately by the C1 and C2 structural identifiers; a system
+may be documented under the chronological role through which it enters
+the professional account.
 </p>
 
 </details>
 
 <h2 id="contents">Contents</h2>
+
+| Period or scope | Role or institutional frame | Associated context |
+| --- | --- | --- |
+| 2026 | [Senior Full-Stack Web Engineer / Engineering Mentor / Co-Founder](#role-2026-senior-full-stack) | [C2.1.2] [IRON CREED](#iron-creed) |
+| 2025 | [Game Systems Designer / Co-Founder](#role-2025-game-systems-designer) | [C2.1] [Zhovten Games](#zhovten-games); [C2.1.1] [InterDead](#interdead-project-map) |
+| 2021 | [Middle Full-Stack Web Engineer](#role-2021-middle-full-stack) | [Freelance](#freelance) |
+| Cross-period; entry at 2021 | [C2] [FOP Oksana Dubinetska](#fop-oksana-dubinetska) | Legal and contractual frame for subsequent roles and systems |
+| 2019 | [Junior Full-Stack Web Engineer — WordPress](#role-2019-junior-full-stack) | [ZIPY HOLDINGS LTD.](#zipy-holdings) |
+| 2017 | [Project Manager / Copywriting Team](#role-2017-project-manager) | [Scuba Space](#scuba-space) |
+| 2015 | [Software Test Engineer](#role-2015-software-test) | [uKit](#ukit) |
+| 2015 | [Marriage](#role-2015-marriage) | [C1] [LEBENSBUND](#lebensbund) |
+| 2011 | [Technical Help Desk Specialist](#role-2011-help-desk) | [uCoz](#ucoz) |
+| Selected work | [Selected Projects & Artifacts](#selected-work) | [Projects](#selected-projects); [artifacts](#selected-artifacts); [public records](#public-records) |
+| Technical reference | [Stack Model](#stack-model) | [STACKSET registry](#stackset-registry); [C++ runtime formalization](#stackset-cpp-status) |
+
+<details>
+<summary><strong>Detailed Index: Stacks, Runtime Surfaces and Evidence</strong></summary>
+
+<br>
 
 <pre>
 BERUF :: CONTENTS
@@ -814,7 +379,7 @@ BERUF :: CONTENTS
 │       ├── <a href="#freelance-stack">STACK / OVERRIDE</a>
 │       └── client / project work
 │
-├── [C2] ↑ <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
+├── [C2] <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
 │   └── legal / contractual frame spanning later roles and systems
 │
 ├── 2019 · <a href="#role-2019-junior-full-stack">Junior Full-Stack Web Engineer</a>
@@ -890,35 +455,38 @@ BERUF :: CONTENTS
     └── <a href="#record-wordpress-profile">WordPress.org · IRONCREED profile</a>
 </pre>
 
+</details>
+
 ---
 
 <h2 id="role-2026-senior-full-stack">2026 · Senior Full-Stack Web Engineer / Engineering Mentor / Co-Founder</h2>
 <a id="role-2026-senior-full-stack-stack"></a>
 
 <details>
-<summary><strong>Role details · August 2026 → Present · IRON CREED</strong></summary>
+<summary><strong>Role details · August 2026–present · IRON CREED</strong></summary>
 
 <br>
 
 <p>
-Since August 2026, I work through IRON CREED in a role that combines
+Since August 2026, I have worked through IRON CREED in a role that combines
 hands-on full-stack engineering with systems architecture, infrastructure,
 automation, delivery, technical documentation, verification, code review,
 and engineering mentorship.
 </p>
 
 <p>
-The role is broader in engineering scope than my parallel studio role at
-Zhovten Games. It includes not only implementation, but also technical
-direction, working methods, architectural decisions, review standards,
-and the transfer of reusable engineering practices between projects.
+The engineering scope encompasses implementation, technical direction,
+working methods, architectural decisions, review standards and the
+transfer of reusable practices between projects. These responsibilities
+complement the systems-design and implementation remit of my parallel
+studio role at Zhovten Games.
 </p>
 
 <pre>
 ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
 │
 ├── PERIOD
-│   └── August 2026 → Present
+│   └── August 2026–present
 │
 ├── CONTEXT
 │   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
@@ -965,9 +533,7 @@ ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
 
 </details>
 
----
-
-<h3 id="iron-creed">[C2.1.2] ↳ IRON CREED</h3>
+<h3 id="iron-creed">[C2.1.2] IRON CREED</h3>
 <a id="iron-creed-stack"></a>
 <a id="iron-creed-governance"></a>
 <a id="iron-creed-licensing"></a>
@@ -986,11 +552,11 @@ and the personified engineering process behind its IT practice.
 </p>
 
 <p>
-It connects development, infrastructure, automation, security, research,
-technical publishing and verification into systems that can be understood,
-verified and changed deliberately. Implementation, documentation,
-research and verification are treated as connected parts of the same
-engineering process rather than as unrelated stages.
+It integrates development, infrastructure, automation, security,
+research, technical publishing and verification within systems whose
+structure and changes can be examined. Implementation, documentation,
+research and verification constitute interdependent parts of a single
+engineering process.
 </p>
 
 <pre>
@@ -1112,12 +678,12 @@ IRON CREED
 <a id="role-2025-game-systems-designer-stack"></a>
 
 <details>
-<summary><strong>Role details · October 2025 → Present · Zhovten Games</strong></summary>
+<summary><strong>Role details · October 2025–present · Zhovten Games</strong></summary>
 
 <br>
 
 <p>
-Since October 2025, I work within Zhovten Games on gameplay systems,
+Since October 2025, I have worked within Zhovten Games on gameplay systems,
 technical design and the implementation layer that connects narrative
 structure with executable game logic.
 </p>
@@ -1133,7 +699,7 @@ design concepts into structures that can be implemented and maintained.
 ROLE :: GAME SYSTEMS DESIGNER / CO-FOUNDER
 │
 ├── PERIOD
-│   └── October 2025 → Present
+│   └── October 2025–present
 │
 ├── CONTEXT
 │   └── [C2.1] <a href="#zhovten-games">Zhovten Games</a>
@@ -1174,9 +740,7 @@ ROLE :: GAME SYSTEMS DESIGNER / CO-FOUNDER
 
 </details>
 
----
-
-<h3 id="zhovten-games">[C2.1] ↳ Zhovten Games</h3>
+<h3 id="zhovten-games">[C2.1] Zhovten Games</h3>
 <a id="zhovten-games-stack"></a>
 
 <details>
@@ -1255,9 +819,7 @@ ZHOVTEN GAMES
 
 </details>
 
----
-
-<h4 id="interdead-project-map">[C2.1.1] ↳ InterDead</h4>
+<h4 id="interdead-project-map">[C2.1.1] InterDead</h4>
 <a id="interdead-stack"></a>
 <a id="interdead-canon"></a>
 <a id="interdead-canon-stack"></a>
@@ -1282,11 +844,12 @@ canon infrastructure, and supporting research.
 </p>
 
 <p>
-The current public web/prototype contour and the emerging game runtime are
-separate architectural contours. <strong>InterDeadCore is not the C++ Game Core</strong>:
-it is the existing TypeScript monorepo for shared web-side domain packages.
-The future game runtime is centred on an independent C++ Game Core, with
-Unreal and Web / WASM treated as parallel projections through adapters.
+The public web and prototype contour and the emerging game runtime
+occupy distinct architectural positions. <strong>InterDeadCore</strong> is
+the existing TypeScript monorepo for shared web-side domain packages.
+The future game runtime is centred on an independent <strong>C++ Game
+Core</strong>, with Unreal and Web / WASM defined as parallel projections
+through adapters.
 </p>
 
 <pre>
@@ -1495,7 +1058,7 @@ INTERDEAD
 <a id="role-2021-middle-full-stack-stack"></a>
 
 <details>
-<summary><strong>Role details · September 2021 → August 2026 · Freelance</strong></summary>
+<summary><strong>Role details · September 2021–August 2026 · Freelance</strong></summary>
 
 <br>
 
@@ -1516,7 +1079,7 @@ technical decisions, delivery, and practical knowledge transfer.
 ROLE :: MIDDLE FULL-STACK WEB ENGINEER
 │
 ├── PERIOD
-│   └── September 2021 → August 2026
+│   └── September 2021–August 2026
 │
 ├── CONTEXT
 │   └── <a href="#freelance">Self-Employed / Freelance</a>
@@ -1562,9 +1125,7 @@ ROLE :: MIDDLE FULL-STACK WEB ENGINEER
 
 </details>
 
----
-
-<h3 id="freelance">↳ Freelance</h3>
+<h3 id="freelance">Freelance</h3>
 <a id="freelance-stack"></a>
 
 <details>
@@ -1573,8 +1134,9 @@ ROLE :: MIDDLE FULL-STACK WEB ENGINEER
 <br>
 
 <p>
-Freelance represents the independent client-work context of the
-2021–2026 period rather than a company or separate organization.
+Freelance denotes the independent client-work context of the 2021–2026
+period. Its documentary function is to identify the mode of professional
+activity and the projects undertaken within that context.
 </p>
 
 <p>
@@ -1591,7 +1153,7 @@ FREELANCE
 │   └── independent client work / professional context
 │
 ├── PERIOD
-│   └── September 2021 → August 2026
+│   └── September 2021–August 2026
 │
 ├── STATUS
 │   └── historical / superseded by IRON CREED as the
@@ -1634,7 +1196,7 @@ FREELANCE
 
 ---
 
-<h2 id="fop-oksana-dubinetska">[C2] ↑ ↳ FOP Oksana Dubinetska</h2>
+<h2 id="fop-oksana-dubinetska">[C2] FOP Oksana Dubinetska</h2>
 
 <details>
 <summary><strong>Legal / contractual frame and institutional derivation</strong></summary>
@@ -1642,20 +1204,21 @@ FREELANCE
 <br>
 
 <p>
-FOP Oksana Dubinetska is the legal and contractual frame that enters the
-BERUF map on the 2021 independent-work line and continues through the later
-co-founded systems. Its placement records where this institutional branch
-intersects the chronology; it does not imply that the frame ends with the
-2021–2026 role.
+FOP Oksana Dubinetska provides the legal and contractual frame that
+enters the BERUF map at the 2021 independent-work line and continues
+through the later co-founded systems. Its placement identifies the
+institutional branch's intersection with the chronology; its scope
+extends across the subsequent roles and systems.
 </p>
 
 <p>
-The institutional sequence is deliberately asymmetric: FOP Oksana Dubinetska
-provides the legal / contractual frame; Zhovten Games develops as the studio /
-production system; IRON CREED develops inside Zhovten Games as its applied IT /
-engineering practice. The connection from LEBENSBUND to FOP records a shared-life
-and professional intersection, not ownership or derivation of the business from
-LEBENSBUND.
+The institutional sequence assigns a distinct function to each entity:
+FOP Oksana Dubinetska provides the legal and contractual frame; Zhovten
+Games constitutes the studio and production system; and IRON CREED
+develops within Zhovten Games as its applied IT and engineering practice.
+The connection between LEBENSBUND and FOP records the intersection of
+shared life and professional activity. Institutional derivation is
+specified within the C2 lineage, whose root is FOP Oksana Dubinetska.
 </p>
 
 <pre>
@@ -1699,7 +1262,7 @@ FOP OKSANA DUBINETSKA
 <a id="role-2019-junior-full-stack-stack"></a>
 
 <details>
-<summary><strong>Role details · November 2019 → August 2021 · ZIPY HOLDINGS LTD.</strong></summary>
+<summary><strong>Role details · November 2019–August 2021 · ZIPY HOLDINGS LTD.</strong></summary>
 
 <br>
 
@@ -1719,7 +1282,7 @@ SEO, localization, and ongoing support.
 ROLE :: JUNIOR FULL-STACK WEB ENGINEER — WORDPRESS
 │
 ├── PERIOD
-│   └── November 2019 → August 2021
+│   └── November 2019–August 2021
 │
 ├── CONTEXT
 │   └── <a href="#zipy-holdings">ZIPY HOLDINGS LTD.</a>
@@ -1761,9 +1324,7 @@ ROLE :: JUNIOR FULL-STACK WEB ENGINEER — WORDPRESS
 
 </details>
 
----
-
-<h3 id="zipy-holdings">↳ ZIPY HOLDINGS LTD.</h3>
+<h3 id="zipy-holdings">ZIPY HOLDINGS LTD.</h3>
 <a id="zipy-holdings-stack"></a>
 <a id="glenbotal"></a>
 
@@ -1790,7 +1351,7 @@ ZIPY HOLDINGS LTD.
 │   └── historical organization / contract context
 │
 ├── PERIOD
-│   └── November 2019 → August 2021
+│   └── November 2019–August 2021
 │
 ├── STATUS
 │   └── completed / historical
@@ -1828,7 +1389,7 @@ ZIPY HOLDINGS LTD.
 <a id="role-2017-project-manager-stack"></a>
 
 <details>
-<summary><strong>Role details · October 2017 → September 2018 · Scuba Space</strong></summary>
+<summary><strong>Role details · October 2017–September 2018 · Scuba Space</strong></summary>
 
 <br>
 
@@ -1850,7 +1411,7 @@ consistent, and predictable.
 ROLE :: PROJECT MANAGER / COPYWRITING TEAM
 │
 ├── PERIOD
-│   └── October 2017 → September 2018
+│   └── October 2017–September 2018
 │
 ├── CONTEXT
 │   └── <a href="#scuba-space">Scuba Space</a>
@@ -1887,9 +1448,7 @@ ROLE :: PROJECT MANAGER / COPYWRITING TEAM
 
 </details>
 
----
-
-<h3 id="scuba-space">↳ Scuba Space</h3>
+<h3 id="scuba-space">Scuba Space</h3>
 <a id="scuba-space-stack"></a>
 
 <details>
@@ -1909,7 +1468,7 @@ SCUBA SPACE
 │   └── historical organization / contract context
 │
 ├── PERIOD
-│   └── October 2017 → September 2018
+│   └── October 2017–September 2018
 │
 ├── STATUS
 │   └── completed / historical
@@ -1938,7 +1497,7 @@ SCUBA SPACE
 <a id="role-2015-software-test-stack"></a>
 
 <details>
-<summary><strong>Role details · October 2015 → September 2017 · uKit</strong></summary>
+<summary><strong>Role details · October 2015–September 2017 · uKit</strong></summary>
 
 <br>
 
@@ -1960,7 +1519,7 @@ verification.
 ROLE :: SOFTWARE TEST ENGINEER
 │
 ├── PERIOD
-│   └── October 2015 → September 2017
+│   └── October 2015–September 2017
 │
 ├── CONTEXT
 │   └── <a href="#ukit">uKit</a>
@@ -1994,9 +1553,7 @@ ROLE :: SOFTWARE TEST ENGINEER
 
 </details>
 
----
-
-<h3 id="ukit">↳ uKit</h3>
+<h3 id="ukit">uKit</h3>
 <a id="ukit-stack"></a>
 
 <details>
@@ -2017,7 +1574,7 @@ uKIT
 │   └── historical product / employment context
 │
 ├── PERIOD
-│   └── October 2015 → September 2017
+│   └── October 2015–September 2017
 │
 ├── STATUS
 │   └── historical
@@ -2057,24 +1614,24 @@ uKIT
 <br>
 
 <p>
-Marriage appears on the BERUF carrier because this map models the
-allocation of finite lifetime rather than employment alone. It marks the
-origin point of <a href="#lebensbund">LEBENSBUND</a>, a continuing shared-life
-axis that persists across several professional periods.
+Marriage appears on the BERUF carrier as a milestone in the allocation
+of finite lifetime. It establishes the origin point of
+<a href="#lebensbund">LEBENSBUND</a>, an enduring shared-life axis that
+continues across several professional periods.
 </p>
 
 <p>
-This node is not an employer, job title, or project. Its purpose is to
-show that long-lived personal structures can shape where time is invested
-and can later intersect with professional systems without being reduced
-to them.
+The node documents a personal milestone and the emergence of a
+continuing life structure. Its function is to record how enduring
+personal commitments shape the allocation of time and subsequently
+intersect with professional systems while retaining their own scope.
 </p>
 
 <pre>
 MILESTONE :: MARRIAGE
 │
 ├── PERIOD
-│   └── 2015 → Present
+│   └── 2015–present
 │
 ├── TYPE
 │   └── personal milestone / shared-life origin
@@ -2097,9 +1654,7 @@ MILESTONE :: MARRIAGE
 
 </details>
 
----
-
-<h3 id="lebensbund">[C1] ↳ LEBENSBUND</h3>
+<h3 id="lebensbund">[C1] LEBENSBUND</h3>
 
 <details>
 <summary><strong>Continuity, shared life axis and relation to BERUF</strong></summary>
@@ -2166,7 +1721,7 @@ LEBENSBUND
 <a id="role-2011-help-desk-stack"></a>
 
 <details>
-<summary><strong>Role details · December 2011 → October 2015 · uCoz</strong></summary>
+<summary><strong>Role details · December 2011–October 2015 · uCoz</strong></summary>
 
 <br>
 
@@ -2186,7 +1741,7 @@ layout/content tasks for company projects.
 ROLE :: TECHNICAL HELP DESK SPECIALIST
 │
 ├── PERIOD
-│   └── December 2011 → October 2015
+│   └── December 2011–October 2015
 │
 ├── CONTEXT
 │   └── <a href="#ucoz">uCoz</a>
@@ -2223,9 +1778,7 @@ ROLE :: TECHNICAL HELP DESK SPECIALIST
 
 </details>
 
----
-
-<h3 id="ucoz">↳ uCoz</h3>
+<h3 id="ucoz">uCoz</h3>
 <a id="ucoz-stack"></a>
 
 <details>
@@ -2246,7 +1799,7 @@ uCOZ
 │   └── historical company / product environment
 │
 ├── PERIOD :: SAM
-│   └── December 2011 → October 2015
+│   └── December 2011–October 2015
 │
 ├── STATUS
 │   └── historical
@@ -2352,7 +1905,7 @@ SELECTED WORK
 │       │   └── completed consulting project
 │       │
 │       ├── PERIOD
-│       │   └── October 2025 → September 2026
+│       │   └── October 2025–September 2026
 │       │
 │       ├── CONTEXT
 │       │   └── Elaris Studio Games
@@ -2648,5 +2201,410 @@ SELECTED WORK
                 ├── ADD  → Cloudflare deployment target
                 └── ADD  → itch.io deployment target
 </pre>
+
+</details>
+
+---
+
+<h2 id="stack-model">Stack Model</h2>
+
+<p>
+A <strong>STACKSET</strong> defines a reusable canonical bundle of
+technologies, methods, platforms, runtimes or production practices. Each
+node references the applicable bundles through <strong>USE</strong> and
+specifies contextual differences through <strong>OVERRIDE</strong>.
+</p>
+
+<p>
+The resulting <strong>STACK</strong> is contextual: it is the combination
+of all referenced STACKSETs after local overrides have been applied.
+</p>
+
+<details>
+<summary><strong>STACK / STACKSET rules, overrides and versioning</strong></summary>
+
+<br>
+
+<pre>
+STACK MODEL
+
+STACK
+│
+├── USE
+│   ├── STACKSET-A@1
+│   ├── STACKSET-B@1
+│   └── ...
+│
+└── OVERRIDE
+    ├── ADD       → local component not present in referenced sets
+    ├── REMOVE    → inherited component not used in this context
+    ├── REPLACE   → explicit substitution of one component
+    └── NOTE      → contextual qualification without changing membership
+
+EFFECTIVE STACK
+    = USE(STACKSET...)
+    + ADD
+    - REMOVE
+    + REPLACE
+    + NOTE
+</pre>
+
+<h3 id="stack-rules">Stack Rules</h3>
+
+<p>
+STACKSETs normalize recurrent technical contexts. A canonical bundle
+represents either an engineering environment shared by several independent
+contexts or a stable production discipline with sufficient internal
+structure to constitute a reusable unit.
+</p>
+
+<pre>
+STACKSET CREATION RULE
+
+CREATE STACKSET when
+│
+├── the same coherent stack recurs across multiple contexts
+│
+└── OR
+    the set represents a stable engineering / production discipline
+
+KEEP AS OVERRIDE when
+│
+├── the technology is specific to one project or artifact
+├── the component merely modifies a broader reusable stack
+└── there is not yet enough stable context to define the bundle
+
+COMPOSITION OVER INHERITANCE
+
+preferred:
+
+Node
+├── USE → STACKSET-A@1
+├── USE → STACKSET-B@1
+└── OVERRIDE
+    └── local differences
+
+avoid:
+
+STACK-A
+└── STACK-B
+    └── STACK-C
+        └── PROJECT-SPECIFIC-STACK
+</pre>
+
+<p>
+Overrides are intentionally explicit. They prevent a reusable STACKSET
+from being duplicated merely because one project adds, removes, or
+substitutes a small number of components.
+</p>
+
+<pre>
+OVERRIDE RULES
+
+ADD
+│
+└── introduces a component that belongs only to this context
+
+REMOVE
+│
+└── explicitly excludes a component inherited through USE
+
+REPLACE
+│
+└── records a real substitution rather than pretending that
+    both inherited and replacement technologies were used
+
+NOTE
+│
+└── qualifies scope, responsibility, maturity, or usage without
+    changing the effective membership of the stack
+
+EXAMPLE
+
+InterDeadCore
+│
+└── STACK
+    ├── USE → TYPESCRIPT-APPLICATION@1
+    ├── USE → NODE-TOOLING@1
+    ├── USE → HEXAGONAL-SYSTEMS@1
+    │
+    └── OVERRIDE
+        ├── ADD  → @interdead/identity-core
+        ├── ADD  → @interdead/efbd-scale
+        ├── ADD  → @interdead/framework
+        └── NOTE → web-side shared domain packages;
+                   not the C++ Game Core
+</pre>
+
+<p>
+STACKSET versions preserve the integrity of historical technical
+records. Once a role, project or artifact depends on a version, a material
+change requires a new version; the earlier definition remains available
+to the contexts that reference it.
+</p>
+
+<pre>
+VERSIONING RULE
+
+STACKSET@1
+│
+└── frozen once historical contexts depend on it
+
+material change
+│
+└── create STACKSET@2
+
+local difference
+│
+└── keep STACKSET@1 + OVERRIDE
+</pre>
+
+</details>
+
+<h3 id="stackset-registry">STACKSET Registry</h3>
+
+| Category | Canonical bundles |
+| --- | --- |
+| Foundations and runtimes | <a id="stackset-support-web-v1"></a>`SUPPORT-WEB@1`<br><a id="stackset-qa-web-v1"></a>`QA-WEB@1`<br><a id="stackset-editorial-pm-v1"></a>`EDITORIAL-PM@1`<br><a id="stackset-web-fullstack-v1"></a>`WEB-FULLSTACK@1`<br><a id="stackset-node-tooling-v1"></a>`NODE-TOOLING@1`<br><a id="stackset-typescript-application-v1"></a>`TYPESCRIPT-APPLICATION@1`<br><a id="stackset-unix-ops-v1"></a>`UNIX-OPS@1`<br><a id="stackset-windows-automation-v1"></a>`WINDOWS-AUTOMATION@1` |
+| Platforms and delivery | <a id="stackset-wordpress-web-v1"></a>`WORDPRESS-WEB@1`<br><a id="stackset-web-delivery-v1"></a>`WEB-DELIVERY@1`<br><a id="stackset-cloudflare-web-v1"></a>`CLOUDFLARE-WEB@1`<br><a id="stackset-containers-virtualization-v1"></a>`CONTAINERS-VIRTUALIZATION@1` |
+| Architecture and methods | <a id="stackset-hexagonal-systems-v1"></a>`HEXAGONAL-SYSTEMS@1`<br><a id="stackset-game-systems-v1"></a>`GAME-SYSTEMS@1`<br><a id="stackset-process-optimization-v1"></a>`PROCESS-OPTIMIZATION@1`<br><a id="stackset-research-publishing-v1"></a>`RESEARCH-PUBLISHING@1`<br><a id="stackset-engineering-governance-v1"></a>`ENGINEERING-GOVERNANCE@1`<br><a id="stackset-llm-engineering-v1"></a>`LLM-ENGINEERING@1` |
+
+<details>
+<summary><strong>STACKSET definitions</strong></summary>
+
+<br>
+
+<pre>
+SUPPORT-WEB@1
+│
+├── technical support
+├── web-platform diagnostics
+├── issue reproduction
+├── Jira-based task flow
+├── code-level troubleshooting
+├── user communication
+└── technical documentation
+
+QA-WEB@1
+│
+├── functional testing
+├── bug reproduction
+├── system-behavior analysis
+├── integration testing
+├── verification
+└── development-team collaboration
+
+EDITORIAL-PM@1
+│
+├── recruitment
+├── onboarding
+├── task distribution
+├── editorial review
+├── team coordination
+├── quality control
+├── multilingual workflow
+└── delivery control
+
+WEB-FULLSTACK@1
+│
+├── HTML / CSS
+├── JavaScript ES6+
+├── PHP
+├── SQL
+├── REST APIs / Webhooks
+└── Git
+
+NODE-TOOLING@1
+│
+├── Node.js
+├── JavaScript ES6+
+├── ESM / CommonJS modules
+├── CLI tooling
+├── filesystem automation
+├── build / transformation scripts
+└── repository automation
+
+TYPESCRIPT-APPLICATION@1
+│
+├── TypeScript
+├── static typing
+├── typed contracts
+├── modular packages
+├── type checking
+└── TypeScript → JavaScript build flow
+
+UNIX-OPS@1
+│
+├── Linux
+├── BSD / Unix-like systems
+├── Bash
+├── SSH
+├── deployment / administration
+├── TCP/IP configuration
+└── firewall / network configuration
+
+WINDOWS-AUTOMATION@1
+│
+├── PowerShell
+├── Windows shell automation
+├── filesystem / repository tooling
+├── Git workflow automation
+└── local development environment scripting
+
+WORDPRESS-WEB@1
+│
+├── WordPress
+├── WooCommerce
+├── custom plugin / module development
+├── theme / frontend integration
+└── production maintenance
+
+WEB-DELIVERY@1
+│
+├── build processes
+├── deployment
+├── infrastructure integration
+├── CI / CD
+└── production verification
+
+CLOUDFLARE-WEB@1
+│
+├── Cloudflare Pages
+├── Cloudflare Workers
+├── D1
+├── KV
+└── edge deployment
+
+CONTAINERS-VIRTUALIZATION@1
+│
+├── Docker
+├── VirtualBox
+└── Hyper-V
+
+HEXAGONAL-SYSTEMS@1
+│
+├── Hexagonal Architecture
+├── Ports &amp; Adapters
+├── dependency inversion
+├── domain / infrastructure separation
+├── replaceable adapters
+└── explicit system boundaries
+
+GAME-SYSTEMS@1
+│
+├── gameplay systems
+├── narrative systems
+├── technical design
+├── prototyping
+├── quest / progression logic
+├── dependency / state modeling
+└── project-system architecture
+
+PROCESS-OPTIMIZATION@1
+│
+├── task decomposition
+├── backlog structuring
+├── phase planning
+├── risk identification
+├── acceptance criteria
+└── workflow stabilization
+
+RESEARCH-PUBLISHING@1
+│
+├── research
+├── technical writing
+├── documentation
+├── reproducible publishing
+└── research-to-engineering transfer
+
+ENGINEERING-GOVERNANCE@1
+│
+├── architectural constraints
+├── canonical-source discipline
+├── documented development rules
+├── review / verification
+├── repository licensing policy
+└── controlled change procedures
+
+LLM-ENGINEERING@1
+│
+├── bounded task decomposition
+├── explicit prompt contracts
+├── human-authored planning
+├── review / tests / smoke checks
+└── traceable acceptance
+</pre>
+
+</details>
+
+<h3 id="stackset-cpp-status">C++ Runtime Formalization</h3>
+
+<details>
+<summary><strong>C++ normalization status and future STACKSET</strong></summary>
+
+<br>
+
+<p>
+C++ is an active, emerging game-runtime technology within InterDead.
+The independent C++ Game Core is being formalized as a distinct
+engineering contour. Its reusable STACKSET remains pending the
+definition of a sufficiently stable implementation environment.
+</p>
+
+<p>
+The stack model records verified technical contexts. A C++ STACKSET
+therefore requires an account of the implemented runtime environment:
+build system, tests, dependency model, WebAssembly boundary, Unreal
+adapter, runtime contracts and associated tooling. These components
+establish the scope and evidential basis of the canonical bundle.
+</p>
+
+<pre>
+C++ STATUS
+
+C++
+│
+├── current status
+│   └── active / emerging game-runtime technology
+│
+├── known architectural position
+│   ├── Scenario
+│   │   └── separate linguistic source
+│   │
+│   └── C++ Game Core
+│       ├── Unreal        → projection / adapter
+│       └── Web / WASM    → projection / adapter
+│
+└── STACKSET status
+    └── NOT YET DEFINED
+        │
+        ├── build system not fixed here
+        ├── test stack not fixed here
+        ├── dependency model not fixed here
+        ├── WASM boundary still belongs to runtime design
+        └── Unreal integration should be described from
+            the implemented adapter rather than assumed
+
+FUTURE
+
+when the implementation contour is stable:
+
+CXX-GAME-RUNTIME@1
+│
+├── C++
+├── build system
+├── testing
+├── dependency / package model
+├── WebAssembly boundary
+├── Unreal adapter boundary
+└── runtime-specific tooling
+</pre>
+
+<p>
+Normalization requires a concrete, reusable technical context.
+During runtime formalization, C++ remains documented at project level
+or through a local OVERRIDE where its use in a particular artifact
+has already been established.
+</p>
 
 </details>
