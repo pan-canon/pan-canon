@@ -1,7 +1,7 @@
 <h2 id="beruf-map">BERUF Map</h2>
 
 <p align="center">
-  <img src="./assets/beruf-map-v.0.1.4.svg" alt="BERUF map: chronological carrier, LEBENSBUND lineage, FOP → Zhovten Games institutional lineage, InterDead, IRON CREED, and historical work contexts." width="100%">
+  <img src="./assets/beruf-map-v.0.1.4.svg" alt="BERUF map: chronological carrier, LEBENSBUND lineage, FOP → Zhovten Games institutional lineage, InterDead, IRONCREED, and historical work contexts." width="100%">
 </p>
 
 <details>
@@ -33,7 +33,7 @@ block-beta
     space:3
     FOP["C2<br/>FOP Oksana<br/>Dubinetska"]
     ZGS["C2.1<br/>Zhovten Games"]
-    ICS["C2.1.2<br/>IRON CREED"]
+    ICS["C2.1.2<br/>IRONCREED"]
     space
 
     %% ─────────────────────────────────────
@@ -182,7 +182,7 @@ the versioned `STACKSET` definitions in the [technical reference](#stack-model).
 The upper institutional line connects entities with distinct functions.
 <strong>FOP Oksana Dubinetska</strong> provides the legal and contractual
 frame; <strong>Zhovten Games</strong> constitutes the studio and production
-system; and <strong>IRON CREED</strong> constitutes its applied IT and
+system; and <strong>IRONCREED</strong> constitutes its applied IT and
 engineering practice. Their connection records institutional continuity
 and derivation while preserving these differences in entity type.
 </p>
@@ -230,7 +230,7 @@ C1       LEBENSBUND
 C2       FOP Oksana Dubinetska
 └── C2.1 Zhovten Games
     ├── C2.1.1 InterDead
-    └── C2.1.2 IRON CREED
+    └── C2.1.2 IRONCREED
 
 RULES
 
@@ -299,7 +299,7 @@ the professional account.
 
 | Period or scope | Role or institutional frame | Associated context |
 | --- | --- | --- |
-| 2026 | [Senior Full-Stack Web Engineer / Engineering Mentor / Co-Founder](#role-2026-senior-full-stack) | [C2.1.2] [IRON CREED](#iron-creed) |
+| 2026 | [Senior Full-Stack Web Engineer / Engineering Mentor / Co-Founder](#role-2026-senior-full-stack) | [C2.1.2] [IRONCREED](#ironcreed) |
 | 2025 | [Game Systems Designer / Co-Founder](#role-2025-game-systems-designer) | [C2.1] [Zhovten Games](#zhovten-games); [C2.1.1] [InterDead](#interdead-project-map) |
 | 2021 | [Middle Full-Stack Web Engineer](#role-2021-middle-full-stack) | [Freelance](#freelance) |
 | Cross-period; entry at 2021 | [C2] [FOP Oksana Dubinetska](#fop-oksana-dubinetska) | Legal and contractual frame for subsequent roles and systems |
@@ -329,7 +329,7 @@ BERUF :: CONTENTS
 │   │   ├── USE → <a href="#stackset-llm-engineering-v1">LLM-ENGINEERING@1</a>
 │   │   └── <a href="#role-2026-senior-full-stack-stack">OVERRIDE</a>
 │   │
-│   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+│   └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
 │       │
 │       └── STACK
 │           ├── USE → <a href="#stackset-web-fullstack-v1">WEB-FULLSTACK@1</a>
@@ -339,7 +339,7 @@ BERUF :: CONTENTS
 │           ├── USE → <a href="#stackset-engineering-governance-v1">ENGINEERING-GOVERNANCE@1</a>
 │           ├── USE → <a href="#stackset-research-publishing-v1">RESEARCH-PUBLISHING@1</a>
 │           ├── USE → <a href="#stackset-llm-engineering-v1">LLM-ENGINEERING@1</a>
-│           └── <a href="#iron-creed-stack">OVERRIDE</a>
+│           └── <a href="#ironcreed-stack">OVERRIDE</a>
 │
 ├── 2025 · <a href="#role-2025-game-systems-designer">Game Systems Designer / Co-Founder</a>
 │   │
@@ -463,12 +463,12 @@ BERUF :: CONTENTS
 <a id="role-2026-senior-full-stack-stack"></a>
 
 <details>
-<summary><strong>Role details · August 2026–present · IRON CREED</strong></summary>
+<summary><strong>Role details · August 2026–present · IRONCREED</strong></summary>
 
 <br>
 
 <p>
-Since August 2026, I have worked through IRON CREED in a role that combines
+Since August 2026, I have worked through IRONCREED in a role that combines
 hands-on full-stack engineering with systems architecture, infrastructure,
 automation, delivery, technical documentation, verification, code review,
 and engineering mentorship.
@@ -489,7 +489,7 @@ ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
 │   └── August 2026–present
 │
 ├── CONTEXT
-│   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+│   └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
 │
 ├── DESCRIPTION
 │   ├── end-to-end web engineering
@@ -527,19 +527,19 @@ ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
 │                  InterDead C++ Game Core
 │
 └── SYSTEMS / PROJECTS
-    └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+    └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
         applied IT and engineering practice
 </pre>
 
 </details>
 
-<h3 id="iron-creed">[C2.1.2] IRON CREED</h3>
-<a id="iron-creed-stack"></a>
-<a id="iron-creed-governance"></a>
-<a id="iron-creed-licensing"></a>
-<a id="iron-creed-prompt-literate"></a>
-<a id="iron-creed-warden"></a>
-<a id="iron-creed-material-cycle"></a>
+<h3 id="ironcreed">[C2.1.2] IRONCREED</h3>
+<a id="ironcreed-stack"></a>
+<a id="ironcreed-governance"></a>
+<a id="ironcreed-licensing"></a>
+<a id="ironcreed-prompt-literate"></a>
+<a id="ironcreed-warden"></a>
+<a id="ironcreed-material-cycle"></a>
 
 <details>
 <summary><strong>Practice scope, stack, working model and references</strong></summary>
@@ -547,7 +547,7 @@ ROLE :: SENIOR FULL-STACK WEB ENGINEER / ENGINEERING MENTOR / CO-FOUNDER
 <br>
 
 <p>
-IRON CREED is the applied IT and engineering practice of Zhovten Games
+IRONCREED is the applied IT and engineering practice of Zhovten Games
 and the personified engineering process behind its IT practice.
 </p>
 
@@ -560,10 +560,10 @@ engineering process.
 </p>
 
 <pre>
-IRON CREED
+IRONCREED
 │
 ├── LINEAGE
-│   └── C2.1.2 · FOP Oksana Dubinetska → Zhovten Games → IRON CREED
+│   └── C2.1.2 · FOP Oksana Dubinetska → Zhovten Games → IRONCREED
 │
 ├── TYPE
 │   └── applied IT / engineering practice
@@ -575,7 +575,7 @@ IRON CREED
 │   └── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
 │
 ├── INSTITUTIONAL LINEAGE
-│   └── [C2] FOP Oksana Dubinetska → [C2.1] Zhovten Games → [C2.1.2] IRON CREED
+│   └── [C2] FOP Oksana Dubinetska → [C2.1] Zhovten Games → [C2.1.2] IRONCREED
 │
 ├── IDENTITY
 │   ├── engineering practice
@@ -657,7 +657,7 @@ IRON CREED
 │   └── <a href="https://web.zhovten.games/en/pages/material-cycle">Material Cycle</a>
 │       └── Idea or IT case
 │           → Research and record
-│           → IRON CREED adaptation
+│           → IRONCREED adaptation
 │           → Verification and the next change
 │
 └── REFERENCES
@@ -1070,7 +1070,7 @@ existing infrastructure, and ongoing production support.
 
 <p>
 This period became the bridge between employment-based engineering and
-the later IRON CREED practice. The work remained client- and project-oriented,
+the later IRONCREED practice. The work remained client- and project-oriented,
 but expanded from implementation into consulting, code review, onboarding,
 technical decisions, delivery, and practical knowledge transfer.
 </p>
@@ -1113,7 +1113,7 @@ ROLE :: MIDDLE FULL-STACK WEB ENGINEER
 │       │          varied by client and project
 │       ├── NOTE → APIs and webhooks are recurring integration
 │       │          mechanisms rather than a single project stack
-│       └── NOTE → later IRON CREED practices should not be
+│       └── NOTE → later IRONCREED practices should not be
 │                  projected backward onto this period
 │
 └── CONTEXT / INTERSECTIONS
@@ -1129,7 +1129,7 @@ ROLE :: MIDDLE FULL-STACK WEB ENGINEER
 <a id="freelance-stack"></a>
 
 <details>
-<summary><strong>Work context, stack and transition to IRON CREED</strong></summary>
+<summary><strong>Work context, stack and transition to IRONCREED</strong></summary>
 
 <br>
 
@@ -1156,7 +1156,7 @@ FREELANCE
 │   └── September 2021–August 2026
 │
 ├── STATUS
-│   └── historical / superseded by IRON CREED as the
+│   └── historical / superseded by IRONCREED as the
 │       primary branded engineering practice
 │
 ├── SCOPE
@@ -1189,7 +1189,7 @@ FREELANCE
 └── TRANSITION
     └── independent freelance practice
         → shared methods / standards / public identity
-        → <a href="#iron-creed">IRON CREED</a>
+        → <a href="#ironcreed">IRONCREED</a>
 </pre>
 
 </details>
@@ -1214,7 +1214,7 @@ extends across the subsequent roles and systems.
 <p>
 The institutional sequence assigns a distinct function to each entity:
 FOP Oksana Dubinetska provides the legal and contractual frame; Zhovten
-Games constitutes the studio and production system; and IRON CREED
+Games constitutes the studio and production system; and IRONCREED
 develops within Zhovten Games as its applied IT and engineering practice.
 The connection between LEBENSBUND and FOP records the intersection of
 shared life and professional activity. Institutional derivation is
@@ -1247,7 +1247,7 @@ FOP OKSANA DUBINETSKA
 │   └── [C2] FOP Oksana Dubinetska
 │       └── [C2.1] <a href="#zhovten-games">Zhovten Games</a>
 │           studio / production system
-│           └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+│           └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
 │               applied IT / engineering practice
 │
 └── REFERENCE
@@ -1673,7 +1673,7 @@ periods. The later FOP Oksana Dubinetska frame provides a concrete business
 and contractual intersection on that line, while LEBENSBUND itself remains
 distinct from any single professional or technical structure. The link marks
 intersection rather than ownership: the institutional line continues through
-FOP Oksana Dubinetska → Zhovten Games → IRON CREED.
+FOP Oksana Dubinetska → Zhovten Games → IRONCREED.
 </p>
 
 <pre>
@@ -1705,7 +1705,7 @@ LEBENSBUND
 ├── PROFESSIONAL INTERSECTIONS
 │   ├── <a href="#fop-oksana-dubinetska">FOP Oksana Dubinetska</a>
 │   ├── <a href="#zhovten-games">Zhovten Games</a>
-│   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+│   └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
 │
 └── STACK
     └── NOT APPLICABLE
@@ -1948,7 +1948,7 @@ SELECTED WORK
 │   └── <a href="https://profiles.wordpress.org/ironcreed/">WordPress.org · IRONCREED profile</a>
 │       │
 │       ├── ORIGIN
-│       │   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+│       │   └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
 │       │
 │       ├── TYPE
 │       │   └── public engineering / release identity surface
@@ -2046,7 +2046,7 @@ SELECTED WORK
     ├── <a href="https://wordpress.org/plugins/ironcreed-request-log/">IRONCREED Request Log</a>
     │   │
     │   ├── ORIGIN
-    │   │   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+    │   │   └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
     │   │
     │   ├── TYPE
     │   │   └── WordPress plugin / request-observation tool
@@ -2062,7 +2062,7 @@ SELECTED WORK
     │   │
     │   ├── ORIGIN
     │   │   ├── [C2.1] <a href="#zhovten-games">Zhovten Games</a> research
-    │   │   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a> adaptation
+    │   │   └── [C2.1.2] <a href="#ironcreed">IRONCREED</a> adaptation
     │   │
     │   ├── TYPE
     │   │   └── research publication / governance model / repository
@@ -2113,7 +2113,7 @@ SELECTED WORK
     ├── <a href="https://github.com/IRONCREED/prompt-literate-workflow">Prompt-Literate Workflow</a>
     │   │
     │   ├── ORIGIN
-    │   │   └── [C2.1.2] <a href="#iron-creed">IRON CREED</a>
+    │   │   └── [C2.1.2] <a href="#ironcreed">IRONCREED</a>
     │   │
     │   ├── TYPE
     │   │   └── engineering methodology / repository
